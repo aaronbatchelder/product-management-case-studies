@@ -64,7 +64,7 @@ export default function AboutPage() {
           <section>
             <h2 className="text-lg font-semibold mb-3">How to Contribute</h2>
             <p className="text-muted mb-3">
-              We welcome contributions! The easiest way is to{" "}
+              I welcome contributions! The easiest way is to{" "}
               <a href="/submit" className="text-accent hover:underline">
                 submit a case study directly on the site
               </a>
