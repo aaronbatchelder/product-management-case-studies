@@ -64,7 +64,11 @@ export default function AboutPage() {
           <section>
             <h2 className="text-lg font-semibold mb-3">How to Contribute</h2>
             <p className="text-muted mb-3">
-              We welcome contributions! To add a case study:
+              We welcome contributions! The easiest way is to{" "}
+              <a href="/submit" className="text-accent hover:underline">
+                submit a case study directly on the site
+              </a>
+              . Or, if you prefer GitHub:
             </p>
             <ol className="list-decimal list-inside space-y-2 text-muted">
               <li>Fork the repository on GitHub</li>
