@@ -1,0 +1,2724 @@
+[
+  {
+    "id": "1",
+    "slug": "the-product-manager",
+    "title": "The Product Manager",
+    "url": "https://store.hbr.org/product/the-product-manager/812105",
+    "category": "b2b-product",
+    "tags": [
+      "PM role",
+      "organizational design"
+    ],
+    "description": "Describes PM responsibilities, organizing PM function, attributes of effective PMs",
+    "datePublished": "2011-12-01",
+    "source": "HBS",
+    "format": "article",
+    "company": "Multiple",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "2",
+    "slug": "product-development-at-opower",
+    "title": "Product Development at OPOWER",
+    "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=40074",
+    "category": "feature-prioritization",
+    "tags": [
+      "roadmap management",
+      "sales-engineering tension"
+    ],
+    "description": "PM system using \"tokens\" to balance custom features vs product roadmap",
+    "datePublished": "2010-12-01",
+    "source": "HBS",
+    "format": "article",
+    "company": "OPOWER",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "3",
+    "slug": "dropbox-it-just-works",
+    "title": "Dropbox: 'It Just Works'",
+    "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=39913",
+    "category": "product-launch",
+    "tags": [
+      "startup growth",
+      "product decisions"
+    ],
+    "description": "Dropbox history from conception through strategic decisions",
+    "datePublished": "2011-01-01",
+    "source": "HBS",
+    "format": "article",
+    "company": "Dropbox",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "4",
+    "slug": "freemium-pricing-at-dropbox",
+    "title": "Freemium Pricing at Dropbox",
+    "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=45910",
+    "category": "pricing-monetization",
+    "tags": [
+      "freemium",
+      "pricing strategy"
+    ],
+    "description": "How Dropbox used freemium to facilitate adoption and referrals",
+    "datePublished": "2013-01-01",
+    "source": "HBS",
+    "format": "article",
+    "company": "Dropbox",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "5",
+    "slug": "googles-project-oxygen-do-managers-matter",
+    "title": "Google's Project Oxygen: Do Managers Matter?",
+    "url": "https://store.hbr.org/product/google-s-project-oxygen-do-managers-matter/313110",
+    "category": "data-driven",
+    "tags": [
+      "data-driven",
+      "management"
+    ],
+    "description": "Research on management effectiveness with 8 key attributes",
+    "datePublished": "2013-04-01",
+    "source": "HBS",
+    "format": "article",
+    "company": "Google",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "6",
+    "slug": "chase-sapphire-creating-a-millennial-cult-brand",
+    "title": "Chase Sapphire: Creating a Millennial Cult Brand",
+    "url": "https://store.hbr.org/product/chase-sapphire-creating-a-millennial-cult-brand/518024",
+    "category": "product-launch",
+    "tags": [
+      "brand building",
+      "customer acquisition"
+    ],
+    "description": "Launch of Chase Sapphire Reserve targeting millennials",
+    "datePublished": "2017-09-01",
+    "source": "HBS",
+    "format": "article",
+    "company": "JPMorgan Chase",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "7",
+    "slug": "amazoncom-2021",
+    "title": "Amazon.com, 2021",
+    "url": "https://store.hbr.org/product/amazon-com-2021/716402",
+    "category": "platform-strategy",
+    "tags": [
+      "platform business",
+      "growth"
+    ],
+    "description": "Amazon's evolution with operating profits from $2.2B to $22.9B",
+    "datePublished": "2021-01-01",
+    "source": "HBS",
+    "format": "article",
+    "company": "Amazon",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "8",
+    "slug": "building-world-class-pm-organization-at-ancestry",
+    "title": "Building World-Class PM Organization at Ancestry",
+    "url": "https://www.gsb.stanford.edu/faculty-research/case-studies/strategy-metrics-building-world-class-product-management-organization",
+    "category": "b2b-product",
+    "tags": [
+      "PM organization",
+      "technical debt"
+    ],
+    "description": "CEO Deborah Liu's transformation of product organization",
+    "datePublished": "2025-01-01",
+    "source": "Stanford GSB",
+    "format": "article",
+    "company": "Ancestry",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "9",
+    "slug": "target-data-driven-product-management-organization",
+    "title": "Target: Data-Driven Product Management Organization",
+    "url": "https://www.gsb.stanford.edu/faculty-research/case-studies/target-creating-data-driven-product-management-organization",
+    "category": "data-driven",
+    "tags": [
+      "digital transformation",
+      "retail"
+    ],
+    "description": "Building data science team to compete with Amazon/Walmart",
+    "datePublished": "2024-01-01",
+    "source": "Stanford GSB",
+    "format": "article",
+    "company": "Target",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "10",
+    "slug": "intel-corporation-the-dram-decision",
+    "title": "Intel Corporation: The DRAM Decision",
+    "url": "https://www.gsb.stanford.edu/faculty-research/case-studies/intel-corporation-dram-decision",
+    "category": "pivots",
+    "tags": [
+      "strategic pivot"
+    ],
+    "description": "Strategic decision whether to exit DRAM business",
+    "datePublished": "2020-01-01",
+    "source": "Stanford GSB",
+    "format": "article",
+    "company": "Intel",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "11",
+    "slug": "stripe-consumption-based-sales-organization",
+    "title": "Stripe: Consumption-Based Sales Organization",
+    "url": "https://www.gsb.stanford.edu/faculty-research/case-studies/stripe-designing-consumption-based-sales-organization-stripe-way",
+    "category": "growth-acquisition",
+    "tags": [
+      "sales strategy",
+      "scaling"
+    ],
+    "description": "Building sales during exponential growth from startup to multi-billion",
+    "datePublished": "2025-01-01",
+    "source": "Stanford GSB",
+    "format": "article",
+    "company": "Stripe",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "12",
+    "slug": "wework-from-unicorn-to-bankruptcy",
+    "title": "WeWork: From Unicorn to Bankruptcy",
+    "url": "https://www.gsb.stanford.edu/faculty-research/case-studies/wework-unicorn-bankruptcy",
+    "category": "pivots",
+    "tags": [
+      "startup failure"
+    ],
+    "description": "Analysis of \"space-as-a-service\" and November 2023 bankruptcy",
+    "datePublished": "2025-01-01",
+    "source": "Stanford GSB",
+    "format": "article",
+    "company": "WeWork",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "13",
+    "slug": "virta-health-keep-rowing",
+    "title": "Virta Health: Keep Rowing",
+    "url": "https://www.gsb.stanford.edu/faculty-research/case-studies/keep-rowing-sami-inkinen-virta-health",
+    "category": "product-launch",
+    "tags": [
+      "healthtech",
+      "IPO"
+    ],
+    "description": "Strategic choices nearing profitability for diabetes platform",
+    "datePublished": "2025-01-01",
+    "source": "Stanford GSB",
+    "format": "article",
+    "company": "Virta Health",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "14",
+    "slug": "what-separates-top-product-managers",
+    "title": "What Separates Top Product Managers",
+    "url": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/what-separates-top-product-managers-from-the-rest-of-the-pack",
+    "category": "user-research",
+    "tags": [
+      "PM best practices"
+    ],
+    "description": "7 key practices from 50+ PM organizations including Intuit",
+    "datePublished": "2022-01-01",
+    "source": "McKinsey",
+    "format": "article",
+    "company": "Intuit",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "15",
+    "slug": "product-managers-for-the-digital-world",
+    "title": "Product Managers for the Digital World",
+    "url": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/product-managers-for-the-digital-world",
+    "category": "b2b-product",
+    "tags": [
+      "PM evolution"
+    ],
+    "description": "Evolution of PM role to \"mini-CEO\"",
+    "datePublished": "2017-05-01",
+    "source": "McKinsey",
+    "format": "article",
+    "company": "Amazon, Google",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "16",
+    "slug": "responsible-product-management",
+    "title": "Responsible Product Management",
+    "url": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-emerging-shift-to-responsible-product-management",
+    "category": "trust-safety",
+    "tags": [
+      "ESG",
+      "responsible innovation"
+    ],
+    "description": "Third wave of PM incorporating privacy, sustainability",
+    "datePublished": "2022-03-01",
+    "source": "McKinsey",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "17",
+    "slug": "how-duolingo-reignited-user-growth",
+    "title": "How Duolingo reignited user growth",
+    "url": "https://www.lennysnewsletter.com/p/how-duolingo-reignited-user-growth",
+    "category": "retention-engagement",
+    "tags": [
+      "retention",
+      "gamification"
+    ],
+    "description": "How Duolingo 6x'd DAUs through retention-focused strategy",
+    "datePublished": "2023-01-01",
+    "source": "Jorge Mazal",
+    "format": "article",
+    "company": "Duolingo",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "18",
+    "slug": "how-duolingo-builds-product",
+    "title": "How Duolingo builds product",
+    "url": "https://www.lennysnewsletter.com/p/how-duolingo-builds-product",
+    "category": "product-launch",
+    "tags": [
+      "team structure",
+      "OKRs"
+    ],
+    "description": "Org structure, design reviews, OKR cadence, team rituals",
+    "datePublished": "2023-03-01",
+    "source": "Cem Kansu",
+    "format": "article",
+    "company": "Duolingo",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "19",
+    "slug": "behind-the-product-duolingo-streaks",
+    "title": "Behind the product: Duolingo streaks",
+    "url": "https://www.lennysnewsletter.com/p/duolingo-streaks",
+    "category": "retention-engagement",
+    "tags": [
+      "streaks",
+      "notifications"
+    ],
+    "description": "How streaks drove $14B growth through 600+ experiments",
+    "datePublished": "2024-12-01",
+    "source": "Jackson Shuttleworth",
+    "format": "podcast",
+    "company": "Duolingo",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "20",
+    "slug": "how-figma-builds-product",
+    "title": "How Figma builds product",
+    "url": "https://www.lennysnewsletter.com/p/how-figma-builds-product",
+    "category": "product-launch",
+    "tags": [
+      "OKRs",
+      "design reviews"
+    ],
+    "description": "Planning process, OKRs, product reviews, org structure",
+    "datePublished": "2022-01-01",
+    "source": "Yuhki Yamashita",
+    "format": "article",
+    "company": "Figma",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "21",
+    "slug": "how-notion-builds-product",
+    "title": "How Notion builds product",
+    "url": "https://www.lennysnewsletter.com/p/how-notion-builds-product",
+    "category": "product-launch",
+    "tags": [
+      "planning",
+      "product review"
+    ],
+    "description": "Notion's evolving processes, product reviews, planning",
+    "datePublished": "2023-05-01",
+    "source": "Michael Manapat",
+    "format": "article",
+    "company": "Notion",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "22",
+    "slug": "how-ramp-builds-product",
+    "title": "How Ramp builds product",
+    "url": "https://www.lennysnewsletter.com/p/how-ramp-builds-product",
+    "category": "product-launch",
+    "tags": [
+      "velocity",
+      "PMF"
+    ],
+    "description": "Culture of velocity, efficiency - fastest SaaS growth",
+    "datePublished": "2023-01-01",
+    "source": "Geoff Charles",
+    "format": "article",
+    "company": "Ramp",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "23",
+    "slug": "how-shopify-builds-product",
+    "title": "How Shopify builds product",
+    "url": "https://www.lennysnewsletter.com/p/how-shopify-builds-product",
+    "category": "product-launch",
+    "tags": [
+      "planning"
+    ],
+    "description": "Evolved planning process and product updates",
+    "datePublished": "2023-01-01",
+    "source": "Glen Coates",
+    "format": "article",
+    "company": "Shopify",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "24",
+    "slug": "how-perplexity-builds-product",
+    "title": "How Perplexity builds product",
+    "url": "https://www.lennysnewsletter.com/p/how-perplexity-builds-product",
+    "category": "ai-ml-product",
+    "tags": [
+      "AI",
+      "product development"
+    ],
+    "description": "Using AI in product development, bottom-up idea generation",
+    "datePublished": "2024-01-01",
+    "source": "Johnny Ho",
+    "format": "article",
+    "company": "Perplexity",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "25",
+    "slug": "how-to-kickstart-and-scale-a-consumer-business",
+    "title": "How to kickstart and scale a consumer business",
+    "url": "https://www.lennysnewsletter.com/p/kickstarting-and-scaling-a-consumer",
+    "category": "growth-acquisition",
+    "tags": [
+      "consumer",
+      "PMF"
+    ],
+    "description": "Six-part playbook for consumer companies",
+    "datePublished": "2022-01-01",
+    "source": "Lenny Rachitsky",
+    "format": "article",
+    "company": "Airbnb, Uber, TikTok",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "26",
+    "slug": "how-to-win-in-consumer-subscription",
+    "title": "How to win in consumer subscription",
+    "url": "https://www.lennysnewsletter.com/p/winning-at-consumer-subscription",
+    "category": "pricing-monetization",
+    "tags": [
+      "subscription",
+      "retention"
+    ],
+    "description": "7 successful B2C subscription apps analysis",
+    "datePublished": "2023-01-01",
+    "source": "Lenny Rachitsky",
+    "format": "article",
+    "company": "Duolingo, Spotify, Calm",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "27",
+    "slug": "how-superhuman-built-an-engine-to-find-pmf",
+    "title": "How Superhuman Built an Engine to Find PMF",
+    "url": "https://review.firstround.com/how-superhuman-built-an-engine-to-find-product-market-fit/",
+    "category": "user-research",
+    "tags": [
+      "PMF",
+      "surveys",
+      "metrics"
+    ],
+    "description": "Famous 40% benchmark framework for measuring PMF",
+    "datePublished": "2018-01-01",
+    "source": "Rahul Vohra",
+    "format": "article",
+    "company": "Superhuman",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "28",
+    "slug": "superhumans-onboarding-playbook",
+    "title": "Superhuman's Onboarding Playbook",
+    "url": "https://review.firstround.com/superhuman-onboarding-playbook/",
+    "category": "onboarding-activation",
+    "tags": [
+      "onboarding",
+      "activation"
+    ],
+    "description": "White-glove human-led onboarding at scale",
+    "datePublished": "2024-01-01",
+    "source": "Gaurav Vohra",
+    "format": "article",
+    "company": "Superhuman",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "29",
+    "slug": "airtables-path-to-product-market-fit",
+    "title": "Airtable's Path to Product-Market Fit",
+    "url": "https://review.firstround.com/airtables-path-to-product-market-fit-lessons-for-building-horizontal-products/",
+    "category": "product-launch",
+    "tags": [
+      "horizontal products"
+    ],
+    "description": "Building horizontal product with long PMF journey",
+    "datePublished": "2023-01-01",
+    "source": "Andrew Ofstad",
+    "format": "article",
+    "company": "Airtable",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "30",
+    "slug": "linears-path-to-product-market-fit",
+    "title": "Linear's Path to Product-Market Fit",
+    "url": "https://review.firstround.com/linears-path-to-product-market-fit/",
+    "category": "product-launch",
+    "tags": [
+      "quality",
+      "craft"
+    ],
+    "description": "Quality and craft over speed to $1.25B valuation",
+    "datePublished": "2024-01-01",
+    "source": "Karri Saarinen",
+    "format": "article",
+    "company": "Linear",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "31",
+    "slug": "vantas-path-to-product-market-fit",
+    "title": "Vanta's Path to Product-Market Fit",
+    "url": "https://review.firstround.com/vantas-path-to-product-market-fit/",
+    "category": "b2b-product",
+    "tags": [
+      "category creation"
+    ],
+    "description": "600 customers without proper website, created new category",
+    "datePublished": "2024-01-01",
+    "source": "Christina Cacioppo",
+    "format": "article",
+    "company": "Vanta",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "32",
+    "slug": "vercels-path-to-product-market-fit",
+    "title": "Vercel's Path to Product-Market Fit",
+    "url": "https://review.firstround.com/vercels-path-to-product-market-fit/",
+    "category": "developer-tools",
+    "tags": [
+      "open source",
+      "dev tools"
+    ],
+    "description": "From open-source Next.js to $2.5B frontend cloud",
+    "datePublished": "2024-01-01",
+    "source": "Guillermo Rauch",
+    "format": "article",
+    "company": "Vercel",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "33",
+    "slug": "slacks-epic-launch-strategy-0-to-1b",
+    "title": "Slack's Epic Launch Strategy (0 to $1B)",
+    "url": "https://review.firstround.com/from-0-to-1b-slacks-founder-shares-their-epic-launch-strategy/",
+    "category": "product-launch",
+    "tags": [
+      "launch",
+      "go-to-market"
+    ],
+    "description": "Stewart Butterfield's detailed launch playbook",
+    "datePublished": "2015-01-01",
+    "source": "Stewart Butterfield",
+    "format": "article",
+    "company": "Slack",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "34",
+    "slug": "lookers-founding-story-26b-acquisition",
+    "title": "Looker's Founding Story ($2.6B Acquisition)",
+    "url": "https://review.firstround.com/the-inside-story-of-how-this-startup-turned-a-216-word-pitch-email-into-a-2-6-billion-acquisition/",
+    "category": "b2b-product",
+    "tags": [
+      "acquisition",
+      "BI"
+    ],
+    "description": "From 216-word pitch to Google acquisition",
+    "datePublished": "2020-01-01",
+    "source": "Lloyd Tabb",
+    "format": "article",
+    "company": "Looker",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "35",
+    "slug": "drops-first-time-founder-guide",
+    "title": "Drop's First-Time Founder Guide",
+    "url": "https://review.firstround.com/the-first-time-founders-guide-to-learning-everything-the-hard-way/",
+    "category": "pivots",
+    "tags": [
+      "pivot",
+      "recovery"
+    ],
+    "description": "8-year journey with revenue to zero, pivot, recovery to $100M",
+    "datePublished": "2024-01-01",
+    "source": "Steve El-Hage",
+    "format": "article",
+    "company": "Drop",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "36",
+    "slug": "growth-hacker-airbnbcraigslist-case-study",
+    "title": "Growth Hacker: Airbnb/Craigslist Case Study",
+    "url": "https://andrewchen.com/how-to-be-a-growth-hacker-an-airbnbcraigslist-case-study/",
+    "category": "growth-acquisition",
+    "tags": [
+      "Growth hacking",
+      "Platform integration"
+    ],
+    "description": "Airbnb leveraged Craigslist integration for first-to-market growth",
+    "datePublished": "2012-01-01",
+    "source": "Andrew Chen",
+    "format": "article",
+    "company": "Airbnb",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "37",
+    "slug": "the-cold-start-problem",
+    "title": "The Cold Start Problem",
+    "url": "https://andrewchen.com/chapter-one-cold-start/",
+    "category": "marketplace-dynamics",
+    "tags": [
+      "Network effects",
+      "Atomic networks"
+    ],
+    "description": "Framework for networked products with Uber, Tinder, Slack cases",
+    "datePublished": "2021-12-01",
+    "source": "Andrew Chen",
+    "format": "article",
+    "company": "Uber, Tinder, Slack, Zoom",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "38",
+    "slug": "effects-of-ubers-surge-pricing",
+    "title": "Effects of Uber's Surge Pricing",
+    "url": "http://andrewchen.com/wp-content/uploads/2016/01/effects_of_ubers_surge_pricing.pdf",
+    "category": "pricing-monetization",
+    "tags": [
+      "Dynamic pricing",
+      "Supply-demand"
+    ],
+    "description": "Data-driven surge pricing analysis with concert event data",
+    "datePublished": "2016-01-01",
+    "source": "Andrew Chen",
+    "format": "pdf",
+    "company": "Uber",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "39",
+    "slug": "28-ways-to-grow-supply-in-a-marketplace",
+    "title": "28 Ways to Grow Supply in a Marketplace",
+    "url": "https://andrewchen.com/grow-marketplace-supply/",
+    "category": "marketplace-dynamics",
+    "tags": [
+      "Supply side growth"
+    ],
+    "description": "Comprehensive marketplace supply growth guide",
+    "datePublished": "2019-01-01",
+    "source": "Andrew Chen",
+    "format": "article",
+    "company": "Airbnb, Uber",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "40",
+    "slug": "how-to-build-a-growth-team",
+    "title": "How to Build a Growth Team",
+    "url": "https://andrewchen.com/how-to-build-a-growth-team/",
+    "category": "growth-acquisition",
+    "tags": [
+      "Growth teams"
+    ],
+    "description": "50-slide deck on growth teams from Uber experience",
+    "datePublished": "2017-01-01",
+    "source": "Andrew Chen",
+    "format": "slides",
+    "company": "Uber, HubSpot",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "41",
+    "slug": "building-content-loops-at-pinterest-and-grubhub",
+    "title": "Building Content Loops at Pinterest and Grubhub",
+    "url": "https://review.firstround.com/pinterest-and-grubhubs-former-growth-lead-on-building-content-loops/",
+    "category": "growth-acquisition",
+    "tags": [
+      "Content loops",
+      "SEO"
+    ],
+    "description": "5-step process that drove Grubhub to $10B and Pinterest to 200M",
+    "datePublished": "2018-01-01",
+    "source": "Casey Winters",
+    "format": "article",
+    "company": "Pinterest, Grubhub",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "42",
+    "slug": "s-curves-and-product-sequencing",
+    "title": "S-Curves and Product Sequencing",
+    "url": "https://caseyaccidental.com/s-curves-and-product-sequencing/",
+    "category": "product-launch",
+    "tags": [
+      "S-curves",
+      "Growth loops"
+    ],
+    "description": "How Pinterest/Eventbrite sequenced growth loops",
+    "datePublished": "2023-01-01",
+    "source": "Casey Winters",
+    "format": "article",
+    "company": "Pinterest, Eventbrite",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "43",
+    "slug": "saas-to-marketplace-transitions",
+    "title": "SaaS-to-Marketplace Transitions",
+    "url": "https://caseyaccidental.com/saas-marketplace/",
+    "category": "platform-strategy",
+    "tags": [
+      "SaaS",
+      "Marketplace"
+    ],
+    "description": "Analysis of SaaS-to-marketplace successes and failures",
+    "datePublished": "2021-01-01",
+    "source": "Casey Winters",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "44",
+    "slug": "supply-driving-demand-goldilocks-zone",
+    "title": "Supply Driving Demand: Goldilocks Zone",
+    "url": "https://caseyaccidental.com/tag/marketplaces/",
+    "category": "marketplace-dynamics",
+    "tags": [
+      "Marketplace growth"
+    ],
+    "description": "Framework for supply-led demand (10-40% range)",
+    "datePublished": "2022-01-01",
+    "source": "Casey Winters",
+    "format": "article",
+    "company": "Faire, Grubhub, Etsy",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "45",
+    "slug": "netflix-2020-case-study",
+    "title": "Netflix 2020 Case Study",
+    "url": "https://gibsonbiddle.medium.com/netflix-today-64fe91e2c693",
+    "category": "product-launch",
+    "tags": [
+      "Product strategy",
+      "DHM"
+    ],
+    "description": "DHM and GLEe frameworks applied to Netflix strategy",
+    "datePublished": "2020-08-01",
+    "source": "Gibson Biddle",
+    "format": "article",
+    "company": "Netflix",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "46",
+    "slug": "startup-case-study-chegg",
+    "title": "Startup Case Study: Chegg",
+    "url": "https://gibsonbiddle.medium.com/intro-to-product-strategy-60bdf72b17e3",
+    "category": "product-launch",
+    "tags": [
+      "DHM",
+      "EdTech"
+    ],
+    "description": "DHM framework for Chegg textbook rental/homework help",
+    "datePublished": "2020-01-01",
+    "source": "Gibson Biddle",
+    "format": "article",
+    "company": "Chegg",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "47",
+    "slug": "netflix-personalization-history",
+    "title": "Netflix Personalization History",
+    "url": "https://gibsonbiddle.medium.com/a-brief-history-of-netflix-personalization-1f2debf010a1",
+    "category": "retention-engagement",
+    "tags": [
+      "Personalization",
+      "A/B testing"
+    ],
+    "description": "From DVD to streaming personalization and Netflix Prize",
+    "datePublished": "2020-01-01",
+    "source": "Gibson Biddle",
+    "format": "article",
+    "company": "Netflix",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "48",
+    "slug": "netflix-customer-obsession",
+    "title": "Netflix Customer Obsession",
+    "url": "https://gibsonbiddle.medium.com/customer-obsession-8f1689df60ad",
+    "category": "user-research",
+    "tags": [
+      "Customer obsession",
+      "Metrics"
+    ],
+    "description": "Consumer science, A/B testing, metrics-driven decisions",
+    "datePublished": "2020-01-01",
+    "source": "Gibson Biddle",
+    "format": "article",
+    "company": "Netflix",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "49",
+    "slug": "hubspot-growth-framework-0-100m",
+    "title": "HubSpot Growth Framework $0-$100M",
+    "url": "https://brianbalfour.com/essays/hubspot-growth-framework-100m",
+    "category": "product-launch",
+    "tags": [
+      "Four Fits",
+      "PMF"
+    ],
+    "description": "Four Fits framework applied to HubSpot Sales",
+    "datePublished": "2017-10-01",
+    "source": "Brian Balfour",
+    "format": "article",
+    "company": "HubSpot",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "50",
+    "slug": "the-four-fits-framework",
+    "title": "The Four Fits Framework",
+    "url": "https://brianbalfour.com/four-fits-growth-framework",
+    "category": "product-launch",
+    "tags": [
+      "Growth strategy"
+    ],
+    "description": "Market-Product, Product-Channel, Channel-Model, Model-Market",
+    "datePublished": "2017-01-01",
+    "source": "Brian Balfour",
+    "format": "article",
+    "company": "HubSpot, Slack, Mailchimp",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "51",
+    "slug": "four-fits-for-ai-era-2025-update",
+    "title": "Four Fits for AI Era (2025 Update)",
+    "url": "https://blog.brianbalfour.com/p/the-four-fits-a-growth-framework",
+    "category": "product-launch",
+    "tags": [
+      "AI disruption"
+    ],
+    "description": "Updated framework with Chegg, Stack Overflow PMF collapse",
+    "datePublished": "2025-01-01",
+    "source": "Brian Balfour",
+    "format": "article",
+    "company": "Chegg, Stack Overflow",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "52",
+    "slug": "racecar-growth-framework",
+    "title": "Racecar Growth Framework",
+    "url": "https://brianbalfour.com/quick-takes/the-racecar-growth-framework",
+    "category": "growth-acquisition",
+    "tags": [
+      "Growth loops"
+    ],
+    "description": "Growth Engines, Turbo Boosts, Lubricants, and Fuel metaphor",
+    "datePublished": "2020-01-01",
+    "source": "Brian Balfour",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "53",
+    "slug": "product-model-at-spotify",
+    "title": "Product Model at Spotify",
+    "url": "https://www.svpg.com/product-model-at-spotify/",
+    "category": "product-launch",
+    "tags": [
+      "Empowered Teams",
+      "ML"
+    ],
+    "description": "How Discover Weekly was built with empowered teams",
+    "datePublished": "2024-01-01",
+    "source": "Marty Cagan",
+    "format": "article",
+    "company": "Spotify",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "54",
+    "slug": "product-model-at-amazon",
+    "title": "Product Model at Amazon",
+    "url": "https://www.svpg.com/product-model-at-amazon/",
+    "category": "product-launch",
+    "tags": [
+      "Experimentation"
+    ],
+    "description": "Amazon Prime development through experiments",
+    "datePublished": "2024-01-01",
+    "source": "Marty Cagan",
+    "format": "article",
+    "company": "Amazon",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "55",
+    "slug": "product-model-at-google",
+    "title": "Product Model at Google",
+    "url": "https://www.svpg.com/the-product-model-at-google/",
+    "category": "platform-strategy",
+    "tags": [
+      "Innovation"
+    ],
+    "description": "Google's model across 9 billion-user products",
+    "datePublished": "2024-01-01",
+    "source": "Marty Cagan",
+    "format": "article",
+    "company": "Google",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "56",
+    "slug": "transformed-kaiser-permanente",
+    "title": "TRANSFORMED: Kaiser Permanente",
+    "url": "https://www.svpg.com/books/",
+    "category": "pivots",
+    "tags": [
+      "Enterprise",
+      "Healthcare"
+    ],
+    "description": "Healthcare transformation to product operating model",
+    "datePublished": "2024-01-01",
+    "source": "Marty Cagan",
+    "format": "article",
+    "company": "Kaiser Permanente",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "57",
+    "slug": "how-facebook-built-reactions",
+    "title": "How Facebook Built Reactions",
+    "url": "https://future.com/product-thinking/",
+    "category": "feature-prioritization",
+    "tags": [
+      "Data-Driven",
+      "User Research"
+    ],
+    "description": "Moving beyond Like with 7 animated emotions, A/B tested to 5",
+    "datePublished": "2021-01-01",
+    "source": "Julie Zhuo",
+    "format": "article",
+    "company": "Facebook",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "58",
+    "slug": "building-products-at-airbnb",
+    "title": "Building Products at Airbnb",
+    "url": "https://www.bringthedonuts.com/essays/building-products-at-airbnb/",
+    "category": "product-launch",
+    "tags": [
+      "Product Culture"
+    ],
+    "description": "Airbnb's culture with Snow White storytelling approach",
+    "datePublished": "2021-01-01",
+    "source": "Ken Norton",
+    "format": "article",
+    "company": "Airbnb",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "59",
+    "slug": "destined-to-fail-b2b-pm-story",
+    "title": "Destined to Fail: B2B PM Story",
+    "url": "https://www.opinionx.co/blog/shreyas-doshi-cpsr",
+    "category": "b2b-product",
+    "tags": [
+      "User Research",
+      "Validation"
+    ],
+    "description": "Customer Problem Stack Ranking framework",
+    "datePublished": "2021-04-01",
+    "source": "Shreyas Doshi",
+    "format": "article",
+    "company": "Stripe",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "60",
+    "slug": "building-linkedin-sales-navigator",
+    "title": "Building LinkedIn Sales Navigator",
+    "url": "https://www.sachinrekhi.com/new-course-finding-product-market-fit",
+    "category": "b2b-product",
+    "tags": [
+      "Product-Market Fit"
+    ],
+    "description": "Building $1B+ revenue product at LinkedIn",
+    "datePublished": "2016-01-01",
+    "source": "Sachin Rekhi",
+    "format": "article",
+    "company": "LinkedIn",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "61",
+    "slug": "buzzfeed-tasty-brand-evolution",
+    "title": "BuzzFeed Tasty Brand Evolution",
+    "url": "https://a16z.com/the-case-study-of-buzzfeed-tasty-and-the-evolution-of-brand/",
+    "category": "product-launch",
+    "tags": [
+      "Brand Building",
+      "Viral"
+    ],
+    "description": "Building viral brand first, then distribution",
+    "datePublished": "2018-01-01",
+    "source": "a16z",
+    "format": "video",
+    "company": "BuzzFeed Tasty",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "62",
+    "slug": "dollar-general-retail-survival",
+    "title": "Dollar General Retail Survival",
+    "url": "https://a16z.com/podcast/a16z-podcast-the-case-study-of-dollar-general-and-surviving-thriving-retail/",
+    "category": "pricing-monetization",
+    "tags": [
+      "Retail",
+      "Turnaround"
+    ],
+    "description": "Near-bankruptcy to Fortune 500 through focus",
+    "datePublished": "2017-01-01",
+    "source": "a16z",
+    "format": "podcast",
+    "company": "Dollar General",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "63",
+    "slug": "marketplace-supply-strategy",
+    "title": "Marketplace Supply Strategy",
+    "url": "https://a16z.com/marketplace-supply-strategy-comprehensive-exclusive-or-curated/",
+    "category": "marketplace-dynamics",
+    "tags": [
+      "Marketplace",
+      "Supply"
+    ],
+    "description": "Grubhub's comprehensiveness strategy",
+    "datePublished": "2022-01-01",
+    "source": "a16z",
+    "format": "article",
+    "company": "Grubhub, Airbnb",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "64",
+    "slug": "marketplaces-in-ai-age",
+    "title": "Marketplaces in AI Age",
+    "url": "https://a16z.com/marketplaces-in-the-age-of-ai-take-two-graveyard-to-greenfield/",
+    "category": "ai-ml-product",
+    "tags": [
+      "AI Marketplaces"
+    ],
+    "description": "How AI revives failed marketplace categories",
+    "datePublished": "2025-01-01",
+    "source": "a16z",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "65",
+    "slug": "13-metrics-for-marketplace-companies",
+    "title": "13 Metrics for Marketplace Companies",
+    "url": "https://a16z.com/13-metrics-for-marketplace-companies/",
+    "category": "data-driven",
+    "tags": [
+      "Metrics",
+      "KPIs"
+    ],
+    "description": "Match rate, zeros, power user curves, multi-tenanting",
+    "datePublished": "2020-01-01",
+    "source": "a16z",
+    "format": "article",
+    "company": "Uber, OpenTable",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "66",
+    "slug": "hidden-world-of-pricing",
+    "title": "Hidden World of Pricing",
+    "url": "https://www.nfx.com/post/the-hidden-world-of-pricing",
+    "category": "pricing-monetization",
+    "tags": [
+      "Pricing Strategy"
+    ],
+    "description": "Evernote doubled conversion with per-device pricing",
+    "datePublished": "2020-01-01",
+    "source": "NFX",
+    "format": "article",
+    "company": "Uber, Etsy, Evernote",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "67",
+    "slug": "intentional-network-effects-of-uber",
+    "title": "Intentional Network Effects of Uber",
+    "url": "https://www.nfx.com/post/the-network-effects-map-nfx-case-study-uber",
+    "category": "marketplace-dynamics",
+    "tags": [
+      "Network Effects"
+    ],
+    "description": "Uber's network effects weaknesses and 9 defensibilities",
+    "datePublished": "2019-01-01",
+    "source": "NFX",
+    "format": "article",
+    "company": "Uber",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "68",
+    "slug": "network-effects-manual-16-types",
+    "title": "Network Effects Manual: 16 Types",
+    "url": "https://www.nfx.com/post/network-effects-manual",
+    "category": "platform-strategy",
+    "tags": [
+      "Network Effects"
+    ],
+    "description": "All 16 types with OpenTable, Uber, Facebook examples",
+    "datePublished": "2018-01-01",
+    "source": "NFX",
+    "format": "article",
+    "company": "Multiple",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "69",
+    "slug": "70-of-tech-value-from-network-effects",
+    "title": "70% of Tech Value from Network Effects",
+    "url": "https://www.nfx.com/post/70-percent-value-network-effects",
+    "category": "platform-strategy",
+    "tags": [
+      "Value Creation"
+    ],
+    "description": "Research on network effects value creation since 1994",
+    "datePublished": "2018-01-01",
+    "source": "NFX",
+    "format": "article",
+    "company": "FAANG",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "70",
+    "slug": "the-real-product-market-fit",
+    "title": "The Real Product-Market Fit",
+    "url": "https://www.ycombinator.com/library/5z-the-real-product-market-fit",
+    "category": "product-launch",
+    "tags": [
+      "PMF",
+      "Validation"
+    ],
+    "description": "Why founders falsely believe they've found PMF",
+    "datePublished": "2019-01-01",
+    "source": "Michael Seibel",
+    "format": "article",
+    "company": "Justin.tv, Socialcam",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "71",
+    "slug": "how-weebly-found-pmf",
+    "title": "How Weebly Found PMF",
+    "url": "https://www.ycombinator.com/library/7V-how-to-find-product-market-fit",
+    "category": "user-research",
+    "tags": [
+      "PMF Journey"
+    ],
+    "description": "Weebly's journey to becoming top website builder",
+    "datePublished": "2018-01-01",
+    "source": "David Rusenko",
+    "format": "video",
+    "company": "Weebly",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "72",
+    "slug": "segment-finding-pmf",
+    "title": "Segment: Finding PMF",
+    "url": "https://www.ycombinator.com/library/86-how-to-start-a-startup-finding-product-market-fit",
+    "category": "pivots",
+    "tags": [
+      "PMF",
+      "Pivoting"
+    ],
+    "description": "Real vs imagined problems, when to pivot",
+    "datePublished": "2014-01-01",
+    "source": "Peter Reinhardt",
+    "format": "video",
+    "company": "Segment",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "73",
+    "slug": "post-pmf-people-customers-sales",
+    "title": "Post-PMF: People, Customers, Sales",
+    "url": "https://www.ycombinator.com/library/7q-post-product-market-fit-people-customers-sales",
+    "category": "b2b-product",
+    "tags": [
+      "Post-PMF",
+      "Scaling"
+    ],
+    "description": "Scaling after PMF at Front",
+    "datePublished": "2018-01-01",
+    "source": "Mathilde Collin",
+    "format": "video",
+    "company": "Front",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "74",
+    "slug": "arc-product-market-fit-framework",
+    "title": "Arc Product-Market Fit Framework",
+    "url": "https://sequoiacap.com/article/pmf-framework/",
+    "category": "product-launch",
+    "tags": [
+      "Product-Market Fit"
+    ],
+    "description": "Three archetypes: Hair on Fire, Hard Fact, Future Vision",
+    "datePublished": "2024-01-01",
+    "source": "Sequoia",
+    "format": "article",
+    "company": "Apple, Rippling",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "75",
+    "slug": "sustainable-product-growth",
+    "title": "Sustainable Product Growth",
+    "url": "https://articles.sequoiacap.com/sustainable-product-growth",
+    "category": "retention-engagement",
+    "tags": [
+      "Growth Scenarios"
+    ],
+    "description": "Netflix multi-act growth vs Timehop failure analysis",
+    "datePublished": "2018-01-01",
+    "source": "Sequoia Data Science",
+    "format": "article",
+    "company": "Netflix, Timehop",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "76",
+    "slug": "strategy-at-scale-uber",
+    "title": "Strategy at Scale: Uber",
+    "url": "https://greylock.com/greymatter/strategy-at-scale/",
+    "category": "marketplace-dynamics",
+    "tags": [
+      "MVP",
+      "International"
+    ],
+    "description": "5 lessons scaling Uber Eats, UberRush failure",
+    "datePublished": "2021-01-01",
+    "source": "Greylock",
+    "format": "article",
+    "company": "Uber, Uber Eats",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "77",
+    "slug": "building-a-growth-model",
+    "title": "Building a Growth Model",
+    "url": "https://news.greylock.com/building-a-growth-model-for-your-company-a7a82c55782e",
+    "category": "growth-acquisition",
+    "tags": [
+      "Growth Model"
+    ],
+    "description": "Facebook's \"7 friends in 10 days\" magic moment",
+    "datePublished": "2016-01-01",
+    "source": "Greylock",
+    "format": "article",
+    "company": "Facebook, Wealthfront",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "78",
+    "slug": "how-zillow-scales-data-driven-development",
+    "title": "How Zillow Scales Data-Driven Development",
+    "url": "https://amplitude.com/case-studies/zillow",
+    "category": "data-driven",
+    "tags": [
+      "Product Analytics"
+    ],
+    "description": "100+ data science team enabling inter-team collaboration",
+    "datePublished": "2023-01-01",
+    "source": "Amplitude",
+    "format": "article",
+    "company": "Zillow",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "79",
+    "slug": "life360-build-vs-buy",
+    "title": "Life360 Build vs Buy",
+    "url": "https://amplitude.com/case-studies/life360",
+    "category": "retention-engagement",
+    "tags": [
+      "Mobile",
+      "Retention"
+    ],
+    "description": "40+ people using self-serve analysis for retention",
+    "datePublished": "2023-01-01",
+    "source": "Amplitude",
+    "format": "article",
+    "company": "Life360",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "80",
+    "slug": "dave-establishing-pmf",
+    "title": "Dave: Establishing PMF",
+    "url": "https://amplitude.com/case-studies/dave",
+    "category": "product-launch",
+    "tags": [
+      "Fintech",
+      "Onboarding"
+    ],
+    "description": "Users adding expenses during onboarding 5.7x more likely to retain",
+    "datePublished": "2023-01-01",
+    "source": "Amplitude",
+    "format": "article",
+    "company": "Dave",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "81",
+    "slug": "rappi-experimentation",
+    "title": "Rappi Experimentation",
+    "url": "https://amplitude.com/case-studies/rappi",
+    "category": "product-led-growth",
+    "tags": [
+      "PLG",
+      "Pricing"
+    ],
+    "description": "Prime trial users made 2-3x more orders in 30 days",
+    "datePublished": "2023-01-01",
+    "source": "Amplitude",
+    "format": "article",
+    "company": "Rappi",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "82",
+    "slug": "calm-increased-retention-3x",
+    "title": "Calm Increased Retention 3X",
+    "url": "https://amplitude.com/case-studies/calm",
+    "category": "retention-engagement",
+    "tags": [
+      "Mobile",
+      "Onboarding"
+    ],
+    "description": "Daily Reminders feature drove 3x retention, 40% adoption",
+    "datePublished": "2023-01-01",
+    "source": "Amplitude",
+    "format": "article",
+    "company": "Calm",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "83",
+    "slug": "nbc-retention-by-2x",
+    "title": "NBC Retention by 2x",
+    "url": "https://amplitude.com/case-studies/nbc",
+    "category": "retention-engagement",
+    "tags": [
+      "Media",
+      "Data"
+    ],
+    "description": "Tailored homepages doubled Day 7 retention",
+    "datePublished": "2023-01-01",
+    "source": "Amplitude",
+    "format": "article",
+    "company": "NBCUniversal",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "84",
+    "slug": "yelp-data-analysis-cycle",
+    "title": "Yelp Data Analysis Cycle",
+    "url": "https://mixpanel.com/customers/how-yelp-reduced-data-analysis-cycle-mixpanel/",
+    "category": "data-driven",
+    "tags": [
+      "Feature Prioritization"
+    ],
+    "description": "Reduced analysis time from weeks to days",
+    "datePublished": "2023-01-01",
+    "source": "Mixpanel",
+    "format": "article",
+    "company": "Yelp",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "85",
+    "slug": "bolt-european-super-app-growth",
+    "title": "Bolt European Super-App Growth",
+    "url": "https://mixpanel.com/customers/bolt-the-first-european-super-app-uses-mixpanel-to-fuel-its-growth-strategy/",
+    "category": "feature-prioritization",
+    "tags": [
+      "Mobile",
+      "Platform"
+    ],
+    "description": "Freed 15% Android engineering, reduced cancellations 3%",
+    "datePublished": "2023-01-01",
+    "source": "Mixpanel",
+    "format": "article",
+    "company": "Bolt",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "86",
+    "slug": "betterment-customer-experience",
+    "title": "Betterment Customer Experience",
+    "url": "https://mixpanel.com/customers/betterment-optimizes-customer-experience/",
+    "category": "onboarding-activation",
+    "tags": [
+      "Fintech",
+      "Onboarding"
+    ],
+    "description": "Website converts higher than mobile discovery",
+    "datePublished": "2023-01-01",
+    "source": "Mixpanel",
+    "format": "article",
+    "company": "Betterment",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "87",
+    "slug": "ab-tasty-plg-strategy",
+    "title": "AB Tasty PLG Strategy",
+    "url": "https://mixpanel.com/customers/how-ab-tasty-adopted-a-plg-strategy-using-mixpanel/",
+    "category": "product-led-growth",
+    "tags": [
+      "PLG",
+      "Onboarding"
+    ],
+    "description": "Tour completion improved 2% to 15%, 20% conversion to PQLs",
+    "datePublished": "2023-01-01",
+    "source": "Mixpanel",
+    "format": "article",
+    "company": "AB Tasty",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "88",
+    "slug": "kkday-analytics-culture",
+    "title": "KKday Analytics Culture",
+    "url": "https://mixpanel.com/customers/kkday-case-study/",
+    "category": "data-driven",
+    "tags": [
+      "Marketplace",
+      "Travel"
+    ],
+    "description": "85% bookings in 50 minutes not 1-3 days; doubled conversion",
+    "datePublished": "2023-01-01",
+    "source": "Mixpanel",
+    "format": "article",
+    "company": "KKday",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "89",
+    "slug": "intercom-pmf-panel",
+    "title": "Intercom PMF Panel",
+    "url": "https://www.intercom.com/blog/navigating-product-market-fit-pmf-panel/",
+    "category": "product-launch",
+    "tags": [
+      "PMF",
+      "User Research"
+    ],
+    "description": "PMF Panel approach for new feature development",
+    "datePublished": "2023-01-01",
+    "source": "Intercom",
+    "format": "article",
+    "company": "Intercom",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "90",
+    "slug": "formassembly-user-onboarding",
+    "title": "FormAssembly User Onboarding",
+    "url": "https://www.pendo.io/pendo-blog/user-onboarding-a-case-study/",
+    "category": "onboarding-activation",
+    "tags": [
+      "Onboarding",
+      "B2B"
+    ],
+    "description": "733% increase in onboarding webinar attendance",
+    "datePublished": "2023-01-01",
+    "source": "Pendo",
+    "format": "article",
+    "company": "FormAssembly",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "91",
+    "slug": "citrix-sharefile-plg",
+    "title": "Citrix ShareFile PLG",
+    "url": "https://www.pendo.io/product-led/4-ways-your-product-can-accelerate-your-business/",
+    "category": "product-led-growth",
+    "tags": [
+      "PLG",
+      "Onboarding"
+    ],
+    "description": "60% increase in free trial conversions, 40% fewer support cases",
+    "datePublished": "2023-01-01",
+    "source": "Pendo",
+    "format": "article",
+    "company": "Citrix ShareFile",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "92",
+    "slug": "pivotal-software-product-ops",
+    "title": "Pivotal Software Product Ops",
+    "url": "https://www.productplan.com/webinars/product-ops-case-study/",
+    "category": "platform-strategy",
+    "tags": [
+      "Product Ops"
+    ],
+    "description": "Scaled from 5 to 80 collaborative agile teams",
+    "datePublished": "2023-01-01",
+    "source": "ProductPlan",
+    "format": "video",
+    "company": "Pivotal Software",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "93",
+    "slug": "mcdonalds-2b-self-serve-kiosks",
+    "title": "McDonald's $2B Self-Serve Kiosks",
+    "url": "https://growth.design/case-studies/mcdonalds-self-serve-ux",
+    "category": "onboarding-activation",
+    "tags": [
+      "Self-service",
+      "Psychology"
+    ],
+    "description": "Psychology principles behind kiosk success",
+    "datePublished": "2023-01-01",
+    "source": "Growth.Design",
+    "format": "video",
+    "company": "McDonald's",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "94",
+    "slug": "spotify-wrapped-psychology",
+    "title": "Spotify Wrapped Psychology",
+    "url": "https://growth.design/case-studies/spotify-wrapped-psychology",
+    "category": "retention-engagement",
+    "tags": [
+      "Virality",
+      "Psychology"
+    ],
+    "description": "6 psychology principles driving viral annual feature",
+    "datePublished": "2023-01-01",
+    "source": "Growth.Design",
+    "format": "video",
+    "company": "Spotify",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "95",
+    "slug": "tiktoks-addictive-feed",
+    "title": "TikTok's Addictive Feed",
+    "url": "https://growth.design/case-studies/tiktok-feed-psychology",
+    "category": "retention-engagement",
+    "tags": [
+      "Feed design",
+      "Algorithm"
+    ],
+    "description": "Psychology mechanisms driving addiction",
+    "datePublished": "2023-01-01",
+    "source": "Growth.Design",
+    "format": "video",
+    "company": "TikTok",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "96",
+    "slug": "tinder-monetization-8-conversion",
+    "title": "Tinder Monetization (8% Conversion)",
+    "url": "https://growth.design/case-studies/tinder-monetization",
+    "category": "pricing-monetization",
+    "tags": [
+      "Monetization",
+      "Dating"
+    ],
+    "description": "Conversion psychology in 15 minutes",
+    "datePublished": "2023-01-01",
+    "source": "Growth.Design",
+    "format": "video",
+    "company": "Tinder",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "97",
+    "slug": "duolingos-8-retention-tactics",
+    "title": "Duolingo's 8 Retention Tactics",
+    "url": "https://growth.design/case-studies/duolingo-user-retention",
+    "category": "retention-engagement",
+    "tags": [
+      "Retention",
+      "Gamification"
+    ],
+    "description": "Tactics tested on 300 million users",
+    "datePublished": "2023-01-01",
+    "source": "Growth.Design",
+    "format": "video",
+    "company": "Duolingo",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "98",
+    "slug": "superhumans-1-on-1-onboarding",
+    "title": "Superhuman's 1-on-1 Onboarding",
+    "url": "https://growth.design/case-studies/superhuman-user-onboarding",
+    "category": "onboarding-activation",
+    "tags": [
+      "Onboarding",
+      "B2B"
+    ],
+    "description": "White-glove onboarding revealed",
+    "datePublished": "2023-01-01",
+    "source": "Growth.Design",
+    "format": "video",
+    "company": "Superhuman",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "99",
+    "slug": "zapier-saas-upgrade-ux",
+    "title": "Zapier SaaS Upgrade UX",
+    "url": "https://growth.design/case-studies/zapier-upgrade",
+    "category": "pricing-monetization",
+    "tags": [
+      "SaaS",
+      "Revenue"
+    ],
+    "description": "9 ways to boost SaaS revenues",
+    "datePublished": "2023-01-01",
+    "source": "Growth.Design",
+    "format": "video",
+    "company": "Zapier",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "100",
+    "slug": "looms-explosive-growth",
+    "title": "Loom's Explosive Growth",
+    "url": "https://growth.design/case-studies/loom-psychology",
+    "category": "product-led-growth",
+    "tags": [
+      "PLG",
+      "Viral"
+    ],
+    "description": "Psychology behind viral growth",
+    "datePublished": "2023-01-01",
+    "source": "Growth.Design",
+    "format": "video",
+    "company": "Loom",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "101",
+    "slug": "amazon-purchase-psychology",
+    "title": "Amazon Purchase Psychology",
+    "url": "https://growth.design/case-studies/amazon-purchase-ux",
+    "category": "payments-commerce",
+    "tags": [
+      "E-commerce",
+      "Checkout"
+    ],
+    "description": "Psychology of checkout flow",
+    "datePublished": "2023-01-01",
+    "source": "Growth.Design",
+    "format": "video",
+    "company": "Amazon",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "102",
+    "slug": "ux-of-banking-12-banks-compared",
+    "title": "UX of Banking: 12 Banks Compared",
+    "url": "https://builtformars.com/case-studies/ux-of-banking",
+    "category": "user-research",
+    "tags": [
+      "Banking",
+      "Benchmarking"
+    ],
+    "description": "Comprehensive UK bank UX comparison",
+    "datePublished": "2023-01-01",
+    "source": "Peter Ramsey",
+    "format": "article",
+    "company": "Monzo, Revolut, Barclays",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "103",
+    "slug": "robinhood-ux-during-a-crisis",
+    "title": "Robinhood: UX During a Crisis",
+    "url": "https://builtformars.com/case-studies/how-robinhood-handled-a-crisis",
+    "category": "trust-safety",
+    "tags": [
+      "Crisis",
+      "Trust"
+    ],
+    "description": "GameStop crisis UX handling",
+    "datePublished": "2021-01-01",
+    "source": "Peter Ramsey",
+    "format": "slides",
+    "company": "Robinhood",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "104",
+    "slug": "youtube-shorts-vs-tiktok",
+    "title": "YouTube Shorts vs TikTok",
+    "url": "https://builtformars.com/case-studies/youtube-shorts",
+    "category": "mobile-product",
+    "tags": [
+      "Video",
+      "Social"
+    ],
+    "description": "Short-form video UX comparison",
+    "datePublished": "2023-01-01",
+    "source": "Peter Ramsey",
+    "format": "slides",
+    "company": "YouTube, TikTok",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "105",
+    "slug": "fintech-collection-23-studies",
+    "title": "FinTech Collection (23 Studies)",
+    "url": "https://builtformars.com/collections/fintech",
+    "category": "platform-strategy",
+    "tags": [
+      "Fintech",
+      "Payments"
+    ],
+    "description": "23 fintech UX case studies",
+    "datePublished": "2023-01-01",
+    "source": "Peter Ramsey",
+    "format": "article",
+    "company": "Wise, Credit Karma",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "106",
+    "slug": "ai-native-products-granola-ai",
+    "title": "AI Native Products: Granola AI",
+    "url": "https://gopractice.io/shorts/ai-native-products-granola-ai/",
+    "category": "ai-ml-product",
+    "tags": [
+      "AI",
+      "Meeting notes"
+    ],
+    "description": "Hybrid note-taking approach analysis",
+    "datePublished": "2024-01-01",
+    "source": "GoPractice",
+    "format": "article",
+    "company": "Granola AI",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "107",
+    "slug": "customer-retention-levers",
+    "title": "Customer Retention Levers",
+    "url": "https://gopractice.io/product/customer-retention-levers-task-frequency-and-added-value/",
+    "category": "retention-engagement",
+    "tags": [
+      "Retention",
+      "JTBD"
+    ],
+    "description": "Task frequency and value drive retention",
+    "datePublished": "2023-01-01",
+    "source": "GoPractice",
+    "format": "article",
+    "company": "Uber",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "108",
+    "slug": "network-effects-in-pm",
+    "title": "Network Effects in PM",
+    "url": "https://gopractice.io/product/everything-you-need-to-know-about-network-effects/",
+    "category": "platform-strategy",
+    "tags": [
+      "Network effects"
+    ],
+    "description": "Comprehensive network effects guide",
+    "datePublished": "2023-01-01",
+    "source": "GoPractice",
+    "format": "article",
+    "company": "Facebook, Uber, Airbnb",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "109",
+    "slug": "326-top-e-commerce-sites-benchmark",
+    "title": "326 Top E-commerce Sites Benchmark",
+    "url": "https://baymard.com/ux-benchmark",
+    "category": "user-research",
+    "tags": [
+      "E-commerce",
+      "UX Scores"
+    ],
+    "description": "Ranked UX performance of 326 sites",
+    "datePublished": "2024-01-01",
+    "source": "Baymard",
+    "format": "article",
+    "company": "Target, Amazon, Walmart",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "110",
+    "slug": "mobile-ux-trends-2025",
+    "title": "Mobile UX Trends 2025",
+    "url": "https://baymard.com/blog/mobile-ux-ecommerce",
+    "category": "mobile-product",
+    "tags": [
+      "Mobile",
+      "E-commerce"
+    ],
+    "description": "9 common mobile UX pitfalls",
+    "datePublished": "2025-01-01",
+    "source": "Baymard",
+    "format": "article",
+    "company": "150+ mobile sites",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "111",
+    "slug": "35-e-commerce-best-practices",
+    "title": "35 E-Commerce Best Practices",
+    "url": "https://baymard.com/learn/ecommerce-ux-best-practices",
+    "category": "payments-commerce",
+    "tags": [
+      "E-commerce",
+      "Conversion"
+    ],
+    "description": "Guidelines from 71,000+ hours of research",
+    "datePublished": "2024-01-01",
+    "source": "Baymard",
+    "format": "article",
+    "company": "Fortune 500",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "112",
+    "slug": "bookingcom-data-quality-crisis",
+    "title": "Booking.com Data Quality Crisis",
+    "url": "https://www.mindtheproduct.com/how-booking-com-tackled-a-data-quality-crisis-nimit-bhardwaj-data-product-manager-product-unplugged/",
+    "category": "data-driven",
+    "tags": [
+      "Data Quality",
+      "Crisis"
+    ],
+    "description": "High-stakes data quality issue resolution",
+    "datePublished": "2025-05-01",
+    "source": "Nimit Bhardwaj",
+    "format": "video",
+    "company": "Booking.com",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "113",
+    "slug": "facebook-reels-production",
+    "title": "Facebook Reels Production",
+    "url": "https://www.mindtheproduct.com/a-case-study-phased-approach-to-driving-reels-production-on-facebook/",
+    "category": "growth-acquisition",
+    "tags": [
+      "Growth",
+      "Creator Economy"
+    ],
+    "description": "Phased approach to drive creator engagement",
+    "datePublished": "2024-10-01",
+    "source": "Swati Goyal",
+    "format": "article",
+    "company": "Meta",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "114",
+    "slug": "building-ai-features-with-ai-squad",
+    "title": "Building AI Features with AI Squad",
+    "url": "https://www.mindtheproduct.com/a-case-study-how-to-build-useful-ai-features-with-a-cross-functional-ai-squad/",
+    "category": "ai-ml-product",
+    "tags": [
+      "AI/ML",
+      "Team Structure"
+    ],
+    "description": "Cross-functional AI team approach",
+    "datePublished": "2024-08-01",
+    "source": "Jamie Elliott",
+    "format": "article",
+    "company": "Lightful",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "115",
+    "slug": "duolingo-ai-user-experience",
+    "title": "Duolingo AI User Experience",
+    "url": "https://www.mindtheproduct.com/duolingo-ai-user-experience/",
+    "category": "ai-ml-product",
+    "tags": [
+      "AI/ML",
+      "EdTech"
+    ],
+    "description": "AI for educational UX enhancement",
+    "datePublished": "2024-08-01",
+    "source": "Louron Pratt",
+    "format": "article",
+    "company": "Duolingo",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "116",
+    "slug": "keyholes-plg-transition",
+    "title": "Keyhole's PLG Transition",
+    "url": "https://www.mindtheproduct.com/a-case-study-4-lessons-from-keyholes-transition-to-product-led-growth/",
+    "category": "product-led-growth",
+    "tags": [
+      "PLG",
+      "Activation"
+    ],
+    "description": "45% activation rate through PLG transition",
+    "datePublished": "2024-01-01",
+    "source": "Mind the Product",
+    "format": "article",
+    "company": "Keyhole",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "117",
+    "slug": "wallapop-app-redesign",
+    "title": "Wallapop App Redesign",
+    "url": "https://www.mindtheproduct.com/a-case-study-how-to-produce-a-winning-app-redesign/",
+    "category": "mobile-product",
+    "tags": [
+      "Mobile",
+      "UX"
+    ],
+    "description": "+1.8% DAU/MAU, +5.3% seller stickiness",
+    "datePublished": "2024-01-01",
+    "source": "Adelina Mihala",
+    "format": "article",
+    "company": "Wallapop",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "118",
+    "slug": "revolut-product-market-fit",
+    "title": "Revolut Product-Market Fit",
+    "url": "https://www.mindtheproduct.com/my-learnings-from-finding-product-market-fit-at-revolut/",
+    "category": "product-launch",
+    "tags": [
+      "PMF",
+      "Fintech"
+    ],
+    "description": "Global MVP challenges across markets",
+    "datePublished": "2024-01-01",
+    "source": "Evgenia",
+    "format": "article",
+    "company": "Revolut",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "119",
+    "slug": "codecademy-50m-users-with-freemium",
+    "title": "Codecademy: 50M+ Users with Freemium",
+    "url": "https://productled.com/blog/freemium-case-study-codeacademy",
+    "category": "product-led-growth",
+    "tags": [
+      "Freemium",
+      "EdTech"
+    ],
+    "description": "Journey from 100% free to freemium",
+    "datePublished": "2022-02-01",
+    "source": "Zach Sims",
+    "format": "article",
+    "company": "Codecademy",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "120",
+    "slug": "octadesk-sales-to-product-led",
+    "title": "Octadesk: Sales to Product-Led",
+    "url": "https://productled.com/blog/sales-led-to-product-led-strategy-octadesk-case-study",
+    "category": "product-led-growth",
+    "tags": [
+      "PLG",
+      "NPS"
+    ],
+    "description": "97% reduction in support calls, NPS +25 points",
+    "datePublished": "2022-01-01",
+    "source": "ProductLed",
+    "format": "article",
+    "company": "Octadesk",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "121",
+    "slug": "tettra-free-trial-to-freemium",
+    "title": "Tettra: Free Trial to Freemium",
+    "url": "https://productled.com/blog/freemium-business-model-example",
+    "category": "pricing-monetization",
+    "tags": [
+      "Freemium",
+      "Pricing"
+    ],
+    "description": "40% of support from freemium leading to sales",
+    "datePublished": "2022-01-01",
+    "source": "ProductLed",
+    "format": "article",
+    "company": "Tettra",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "122",
+    "slug": "samsara-0-to-500m-arr",
+    "title": "Samsara: 0 to $500M ARR",
+    "url": "https://www.saastr.com/from-0-to-500-million-arr-in-6-years-learnings-from-innovating-in-underserved-markets-with-samsara-cpo-kiren-sekar-pod-549-video/",
+    "category": "growth-acquisition",
+    "tags": [
+      "Multi-Product",
+      "IoT"
+    ],
+    "description": "Multi-product strategy, customer feedback culture",
+    "datePublished": "2023-01-01",
+    "source": "SaaStr",
+    "format": "video",
+    "company": "Samsara",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "123",
+    "slug": "klarna-ai-vs-saas",
+    "title": "Klarna: AI vs SaaS",
+    "url": "https://www.saastr.com/the-939b-question-is-ai-eating-saas-or-feeding-it/",
+    "category": "ai-ml-product",
+    "tags": [
+      "AI",
+      "Customer Service"
+    ],
+    "description": "Automated 2/3 of customer service, revenue per employee to $700K",
+    "datePublished": "2025-01-01",
+    "source": "SaaStr",
+    "format": "article",
+    "company": "Klarna",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "124",
+    "slug": "when-to-go-multi-product",
+    "title": "When to Go Multi-Product",
+    "url": "https://www.saastr.com/when-to-go-multi-product-in-saas/",
+    "category": "platform-strategy",
+    "tags": [
+      "Multi-Product"
+    ],
+    "description": "By $100M ARR you need second product",
+    "datePublished": "2024-01-01",
+    "source": "Jason Lemkin",
+    "format": "article",
+    "company": "Freshworks, Samsara",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "125",
+    "slug": "gm-mindset-at-upwork",
+    "title": "GM Mindset at Upwork",
+    "url": "https://productschool.substack.com/p/the-best-moments-from-productcon",
+    "category": "b2b-product",
+    "tags": [
+      "Leadership",
+      "GM Role"
+    ],
+    "description": "Transitioning from VP Product to GM, owning P&L",
+    "datePublished": "2025-05-01",
+    "source": "Dave Bottoms",
+    "format": "video",
+    "company": "Upwork",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "126",
+    "slug": "soulcycle-crisis-management",
+    "title": "SoulCycle Crisis Management",
+    "url": "https://productschool.substack.com/p/the-best-moments-from-productcon-2",
+    "category": "pivots",
+    "tags": [
+      "Crisis",
+      "Survival"
+    ],
+    "description": "Steering through pandemic with 90% revenue loss",
+    "datePublished": "2025-05-01",
+    "source": "Drew Lesicko",
+    "format": "video",
+    "company": "SoulCycle",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "127",
+    "slug": "financial-times-ai-transformation",
+    "title": "Financial Times AI Transformation",
+    "url": "https://productschool.substack.com/p/highlights-from-productcon-london",
+    "category": "ai-ml-product",
+    "tags": [
+      "AI",
+      "Legacy"
+    ],
+    "description": "Tackling organizational inertia with AI",
+    "datePublished": "2025-02-01",
+    "source": "Debbie McMahon",
+    "format": "video",
+    "company": "Financial Times",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "128",
+    "slug": "tier-dott-merger-integration",
+    "title": "TIER Dott Merger Integration",
+    "url": "https://productschool.substack.com/p/highlights-from-productcon-london-2",
+    "category": "platform-strategy",
+    "tags": [
+      "M&A",
+      "Integration"
+    ],
+    "description": "Product/platform integration post-merger",
+    "datePublished": "2025-02-01",
+    "source": "Pénélope Carlier",
+    "format": "video",
+    "company": "TIER Dott",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "129",
+    "slug": "twitch-ml-products-hype-train",
+    "title": "Twitch ML Products (Hype Train)",
+    "url": "https://villaumbrosia.medium.com/ai-lluminating-moments-from-productcon-ai-4cff063ee801",
+    "category": "ai-ml-product",
+    "tags": [
+      "ML",
+      "Gaming"
+    ],
+    "description": "Strategic ML use in Hype Train feature",
+    "datePublished": "2024-01-01",
+    "source": "Stephanie Neill",
+    "format": "video",
+    "company": "Twitch",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "130",
+    "slug": "ramp-and-the-ai-opportunity",
+    "title": "Ramp and the AI Opportunity",
+    "url": "https://www.notboring.co/p/ramp-and-the-ai-opportunity",
+    "category": "growth-acquisition",
+    "tags": [
+      "B2B SaaS",
+      "AI"
+    ],
+    "description": "10x contribution profit growth, AI expense automation",
+    "datePublished": "2024-01-01",
+    "source": "Packy McCormick",
+    "format": "article",
+    "company": "Ramp",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "131",
+    "slug": "stripe-internets-most-undervalued",
+    "title": "Stripe: Internet's Most Undervalued",
+    "url": "https://www.notboring.co/p/stripe-the-internets-most-undervalued",
+    "category": "platform-strategy",
+    "tags": [
+      "Developer Tools",
+      "Payments"
+    ],
+    "description": "API-first approach, moat, infrastructure play",
+    "datePublished": "2020-01-01",
+    "source": "Packy McCormick",
+    "format": "article",
+    "company": "Stripe",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "132",
+    "slug": "modern-treasury-quadrillion-quest",
+    "title": "Modern Treasury: Quadrillion Quest",
+    "url": "https://www.notboring.co/p/modern-treasury-the-quadrillion-quest",
+    "category": "payments-commerce",
+    "tags": [
+      "B2B",
+      "Payments"
+    ],
+    "description": "Modernizing money movement with software",
+    "datePublished": "2022-01-01",
+    "source": "Packy McCormick",
+    "format": "article",
+    "company": "Modern Treasury",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "133",
+    "slug": "anduril-acquiring-prime",
+    "title": "Anduril: Acquiring Prime",
+    "url": "https://www.notboring.co/p/anduril-acquiring-prime",
+    "category": "pivots",
+    "tags": [
+      "B2B",
+      "Defense"
+    ],
+    "description": "M&A strategy disrupting defense",
+    "datePublished": "2024-01-01",
+    "source": "Packy McCormick",
+    "format": "article",
+    "company": "Anduril",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "134",
+    "slug": "shopify-and-power-of-platforms",
+    "title": "Shopify and Power of Platforms",
+    "url": "https://stratechery.com/2019/shopify-and-the-power-of-platforms/",
+    "category": "platform-strategy",
+    "tags": [
+      "Platform",
+      "Marketplace"
+    ],
+    "description": "Platform model vs Amazon aggregation",
+    "datePublished": "2019-01-01",
+    "source": "Ben Thompson",
+    "format": "article",
+    "company": "Shopify",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "135",
+    "slug": "aggregation-theory",
+    "title": "Aggregation Theory",
+    "url": "https://stratechery.com/concept/aggregation-theory/",
+    "category": "platform-strategy",
+    "tags": [
+      "Platform",
+      "Aggregation"
+    ],
+    "description": "Framework for internet company dominance",
+    "datePublished": "2015-01-01",
+    "source": "Ben Thompson",
+    "format": "article",
+    "company": "Netflix, Google, Facebook",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "136",
+    "slug": "beyond-aggregation-amazon-as-service",
+    "title": "Beyond Aggregation: Amazon as Service",
+    "url": "https://stratechery.com/2022/beyond-aggregation-amazon-as-a-service/",
+    "category": "platform-strategy",
+    "tags": [
+      "Platform",
+      "Infrastructure"
+    ],
+    "description": "Amazon's shift with Buy With Prime",
+    "datePublished": "2022-01-01",
+    "source": "Ben Thompson",
+    "format": "article",
+    "company": "Amazon, Shopify",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "137",
+    "slug": "value-chain-constraint",
+    "title": "Value Chain Constraint",
+    "url": "https://stratechery.com/2019/the-value-chain-constraint/",
+    "category": "b2b-product",
+    "tags": [
+      "B2B",
+      "Enterprise"
+    ],
+    "description": "Google Cloud challenges and enterprise sales",
+    "datePublished": "2019-01-01",
+    "source": "Ben Thompson",
+    "format": "article",
+    "company": "Google Cloud",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "138",
+    "slug": "building-ai-products",
+    "title": "Building AI Products",
+    "url": "https://www.ben-evans.com/benedictevans/2024/6/8/building-ai-products",
+    "category": "ai-ml-product",
+    "tags": [
+      "AI/ML",
+      "Product"
+    ],
+    "description": "Building products around probabilistic models",
+    "datePublished": "2024-06-01",
+    "source": "Benedict Evans",
+    "format": "article",
+    "company": "OpenAI",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "139",
+    "slug": "unbundling-ai",
+    "title": "Unbundling AI",
+    "url": "https://www.ben-evans.com/benedictevans/2023/10/5/unbundling-ai",
+    "category": "ai-ml-product",
+    "tags": [
+      "AI/ML",
+      "Strategy"
+    ],
+    "description": "General chatbots vs single-purpose software",
+    "datePublished": "2023-10-01",
+    "source": "Benedict Evans",
+    "format": "article",
+    "company": "ChatGPT",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "140",
+    "slug": "looking-for-ai-use-cases",
+    "title": "Looking for AI Use-Cases",
+    "url": "https://www.ben-evans.com/benedictevans/2024/4/19/looking-for-ai-use-cases",
+    "category": "ai-ml-product",
+    "tags": [
+      "AI/ML",
+      "PMF"
+    ],
+    "description": "PMF challenges for generative AI",
+    "datePublished": "2024-04-01",
+    "source": "Benedict Evans",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "141",
+    "slug": "microsoft-volume-i-ii",
+    "title": "Microsoft Volume I & II",
+    "url": "https://www.acquired.fm/episodes/microsoft",
+    "category": "product-launch",
+    "tags": [
+      "Platform",
+      "Pivots"
+    ],
+    "description": "Complete history from founding to Azure",
+    "datePublished": "2024-01-01",
+    "source": "Acquired",
+    "format": "podcast",
+    "company": "Microsoft",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "142",
+    "slug": "meta-complete-history",
+    "title": "Meta: Complete History",
+    "url": "https://www.acquired.fm/episodes/meta",
+    "category": "growth-acquisition",
+    "tags": [
+      "Growth",
+      "Platform"
+    ],
+    "description": "How Meta became dominant social fabric",
+    "datePublished": "2024-10-01",
+    "source": "Acquired",
+    "format": "podcast",
+    "company": "Meta",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "143",
+    "slug": "nvidia-part-i-iii",
+    "title": "Nvidia Part I-III",
+    "url": "https://www.acquired.fm/episodes/nvidia-the-gpu-company-1993-2006",
+    "category": "product-launch",
+    "tags": [
+      "Platform",
+      "AI"
+    ],
+    "description": "From 1993 founding through AI revolution",
+    "datePublished": "2022-01-01",
+    "source": "Acquired",
+    "format": "podcast",
+    "company": "NVIDIA",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "144",
+    "slug": "costco-complete-history",
+    "title": "Costco: Complete History",
+    "url": "https://www.acquired.fm/episodes/costco",
+    "category": "pricing-monetization",
+    "tags": [
+      "Pricing",
+      "Retention"
+    ],
+    "description": "Counter-positioned grocery strategy",
+    "datePublished": "2023-01-01",
+    "source": "Acquired",
+    "format": "podcast",
+    "company": "Costco",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "145",
+    "slug": "spacex-complete-history",
+    "title": "SpaceX: Complete History",
+    "url": "https://www.acquired.fm/episodes/spacex",
+    "category": "product-launch",
+    "tags": [
+      "Product Launch",
+      "Pivots"
+    ],
+    "description": "Ragtag rocket company to aerospace disruptor",
+    "datePublished": "2020-01-01",
+    "source": "Acquired",
+    "format": "podcast",
+    "company": "SpaceX",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "146",
+    "slug": "google-the-ai-company",
+    "title": "Google: The AI Company",
+    "url": "https://www.acquired.fm/episodes/google-the-ai-company",
+    "category": "ai-ml-product",
+    "tags": [
+      "AI",
+      "Platform"
+    ],
+    "description": "Risk AI all vs protect search profits",
+    "datePublished": "2025-01-01",
+    "source": "Acquired",
+    "format": "podcast",
+    "company": "Google",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "147",
+    "slug": "asml-a-monopoly-on-magic",
+    "title": "ASML: A Monopoly on Magic",
+    "url": "https://www.generalist.com/p/asml",
+    "category": "platform-strategy",
+    "tags": [
+      "Platform",
+      "Hardware"
+    ],
+    "description": "Most important company you've never heard of",
+    "datePublished": "2023-07-01",
+    "source": "Mario Gabriele",
+    "format": "article",
+    "company": "ASML",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "148",
+    "slug": "plaid-finances-next-great-network",
+    "title": "Plaid: Finance's Next Great Network",
+    "url": "https://www.generalist.com/p/plaid",
+    "category": "pivots",
+    "tags": [
+      "Platform",
+      "Payments"
+    ],
+    "description": "Thriving after declining Visa's $5.3B offer",
+    "datePublished": "2023-08-01",
+    "source": "Mario Gabriele",
+    "format": "article",
+    "company": "Plaid",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "149",
+    "slug": "brexs-second-act",
+    "title": "Brex's Second Act",
+    "url": "https://www.generalist.com/p/brex",
+    "category": "pivots",
+    "tags": [
+      "Pivots",
+      "B2B"
+    ],
+    "description": "$12.3B fintech pivot and new growth phase",
+    "datePublished": "2023-07-01",
+    "source": "Mario Gabriele",
+    "format": "article",
+    "company": "Brex",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "150",
+    "slug": "mercury-is-ready",
+    "title": "Mercury is Ready",
+    "url": "https://www.generalist.com/p/mercury",
+    "category": "product-led-growth",
+    "tags": [
+      "PLG",
+      "Payments"
+    ],
+    "description": "Unicorn banking platform achieved profitability",
+    "datePublished": "2023-03-01",
+    "source": "Mario Gabriele",
+    "format": "article",
+    "company": "Mercury",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "151",
+    "slug": "airwallex-unrelenting-ambition",
+    "title": "Airwallex: Unrelenting Ambition",
+    "url": "https://www.generalist.com/p/airwallex",
+    "category": "internationalization",
+    "tags": [
+      "International",
+      "Payments"
+    ],
+    "description": "$5.6B fintech APAC dominance",
+    "datePublished": "2024-02-01",
+    "source": "Mario Gabriele",
+    "format": "article",
+    "company": "Airwallex",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "152",
+    "slug": "continuous-discovery-at-fcsamerica",
+    "title": "Continuous Discovery at FCSAmerica",
+    "url": "https://www.producttalk.org/2019/05/continuous-discovery-is-for-everyone/",
+    "category": "user-research",
+    "tags": [
+      "Discovery",
+      "Agile"
+    ],
+    "description": "Lending company adopting continuous discovery",
+    "datePublished": "2019-05-01",
+    "source": "Teresa Torres",
+    "format": "article",
+    "company": "FCSAmerica",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "153",
+    "slug": "carmax-continuous-discovery",
+    "title": "CarMax Continuous Discovery",
+    "url": "https://www.producttalk.org/carmax-case-study/",
+    "category": "user-research",
+    "tags": [
+      "Discovery",
+      "Experimentation"
+    ],
+    "description": "Sustainable discovery practice with experiments",
+    "datePublished": "2023-01-01",
+    "source": "Teresa Torres",
+    "format": "article",
+    "company": "CarMax",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "154",
+    "slug": "seek-next-level-discovery",
+    "title": "SEEK: Next Level Discovery",
+    "url": "https://www.producttalk.org/seek-case-study/",
+    "category": "user-research",
+    "tags": [
+      "Discovery",
+      "Interviewing"
+    ],
+    "description": "Transitioning to structured continuous discovery",
+    "datePublished": "2023-01-01",
+    "source": "Teresa Torres",
+    "format": "article",
+    "company": "SEEK",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "155",
+    "slug": "spotifys-success-strategies",
+    "title": "Spotify's Success Strategies",
+    "url": "https://www.theproductfolks.com/product-management-blog/how-spotify-became-1-music-streaming-platform-product-case-study",
+    "category": "growth-acquisition",
+    "tags": [
+      "Growth",
+      "Personalization"
+    ],
+    "description": "8 strategies including Wrapped, dual-tier model",
+    "datePublished": "2023-01-01",
+    "source": "The Product Folks",
+    "format": "article",
+    "company": "Spotify",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "156",
+    "slug": "payment-link-doubled-e-commerce-orders",
+    "title": "Payment Link Doubled E-Commerce Orders",
+    "url": "https://hackernoon.com/case-study-how-a-payment-link-doubled-orders-for-an-e-commerce-product-in-an-emerging-market",
+    "category": "payments-commerce",
+    "tags": [
+      "Emerging Markets"
+    ],
+    "description": "Escrowed payments in emerging market",
+    "datePublished": "2023-01-01",
+    "source": "HackerNoon",
+    "format": "article",
+    "company": "N/A",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "157",
+    "slug": "lovable-compounding-ai-growth",
+    "title": "Lovable: Compounding AI Growth",
+    "url": "https://hackernoon.com/why-lovable-is-a-case-study-in-compounding-ai-product-growth",
+    "category": "ai-ml-product",
+    "tags": [
+      "AI",
+      "PLG"
+    ],
+    "description": "Time-to-value and trust create compounding",
+    "datePublished": "2024-01-01",
+    "source": "HackerNoon",
+    "format": "article",
+    "company": "Lovable",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "158",
+    "slug": "productboard-research-driven-pm",
+    "title": "Productboard: Research-Driven PM",
+    "url": "https://hackernoon.com/from-pain-points-in-product-management-to-a-billion-dollar-platform-research-driven-pm-analysis",
+    "category": "b2b-product",
+    "tags": [
+      "B2B",
+      "SaaS"
+    ],
+    "description": "Customer-centric path to $1.7B valuation",
+    "datePublished": "2023-01-01",
+    "source": "HackerNoon",
+    "format": "article",
+    "company": "Productboard",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "159",
+    "slug": "bounce-rate-61-to-22",
+    "title": "Bounce Rate: 61% to 22%",
+    "url": "https://productcoalition.com/how-we-managed-to-bring-down-the-bounce-rate-of-mobile-traffic-from-61-to-22-f88b8a13c51e",
+    "category": "retention-engagement",
+    "tags": [
+      "Mobile",
+      "PWA"
+    ],
+    "description": "PWA implementation for luxury fashion",
+    "datePublished": "2023-01-01",
+    "source": "Product Coalition",
+    "format": "article",
+    "company": "Luxury Fashion",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "160",
+    "slug": "shape-up-from-pm-perspective",
+    "title": "Shape Up from PM Perspective",
+    "url": "https://medium.productcoalition.com/case-study-basecamps-shape-up-from-a-product-manager-s-perspective-a820b3209b20",
+    "category": "feature-prioritization",
+    "tags": [
+      "Shape Up"
+    ],
+    "description": "Implementing Basecamp's methodology",
+    "datePublished": "2023-01-01",
+    "source": "Adam Rippl",
+    "format": "article",
+    "company": "B2B SaaS",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "161",
+    "slug": "rules-of-flow-airbnb",
+    "title": "Rules of Flow: Airbnb",
+    "url": "https://medium.com/swlh/rules-of-flow-for-product-management-airbnb-case-study-61ec04342b0d",
+    "category": "retention-engagement",
+    "tags": [
+      "Engagement",
+      "Psychology"
+    ],
+    "description": "Csikszentmihalyi's flow principles for 40% retention",
+    "datePublished": "2023-01-01",
+    "source": "The Startup",
+    "format": "article",
+    "company": "Airbnb",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "162",
+    "slug": "quest-for-pmf-paintberri",
+    "title": "Quest for PMF: PaintBerri",
+    "url": "https://medium.com/swlh/the-quest-for-product-market-fit-6b0e81386cc1",
+    "category": "pivots",
+    "tags": [
+      "Lean Startup",
+      "MVP"
+    ],
+    "description": "Lean startup pivots, MVPs, validated learning",
+    "datePublished": "2023-01-01",
+    "source": "The Startup",
+    "format": "article",
+    "company": "PaintBerri",
+    "createdAt": "2026-02-05"
+  }
+]

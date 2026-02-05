@@ -1,0 +1,37 @@
+# Product Case Studies
+
+> A searchable database of 160+ product management case studies covering growth, launches, pricing, pivots, AI products, and more.
+
+Product Case Studies helps product managers learn from real-world examples. Browse by category or search for specific topics. The database includes case studies from companies like Airbnb, Slack, Spotify, Stripe, Netflix, Dropbox, Duolingo, Figma, Uber, and many more.
+
+## Categories
+
+- Product Launch & Strategy: Go-to-market strategies, launch playbooks
+- Growth & Acquisition: User growth, viral loops, marketing strategies
+- Platform Strategy: Marketplaces, ecosystems, network effects
+- Retention & Engagement: User retention, engagement loops, personalization
+- AI/ML Product: Building AI products, ML features, generative AI
+- B2B Product Management: Enterprise products, B2B SaaS, sales-led growth
+- Pivots & Turnarounds: Strategic changes, repositioning, recovery stories
+- Pricing & Monetization: Pricing models, freemium, revenue optimization
+- User Research & Discovery: Customer discovery, validation, PMF measurement
+- Product-Led Growth: PLG strategies, self-serve, viral mechanics
+- Data-Driven Decisions: Analytics, experimentation, metrics frameworks
+- Marketplace Dynamics: Two-sided marketplaces, supply/demand balance
+- Onboarding & Activation: User onboarding, activation strategies
+- Payments & Commerce: E-commerce, checkout, payment experiences
+
+## Documentation
+
+- [Browse All Case Studies](https://productcasestudies.com/case-studies): Full searchable index of all case studies
+- [Categories](https://productcasestudies.com/categories): Browse case studies organized by topic
+- [MCP Integration](https://productcasestudies.com/mcp): Connect via Model Context Protocol for AI assistants
+
+## API
+
+- [Case Studies JSON](https://productcasestudies.com/api/case-studies.json): Raw JSON data of all case studies
+- [Categories JSON](https://productcasestudies.com/api/categories.json): Category metadata with counts
+
+## Optional
+
+- [About](https://productcasestudies.com/about): Project background and how to contribute

@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://productcasestudies.com/sitemap.xml
+
+# AI-friendly files
+# llms.txt: https://productcasestudies.com/llms.txt

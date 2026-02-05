@@ -1,0 +1,42 @@
+{
+  "name": "productcasestudies-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Product Case Studies - search and retrieve product management case studies",
+  "main": "dist/index.js",
+  "bin": {
+    "productcasestudies-mcp": "./dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "product-management",
+    "case-studies",
+    "ai",
+    "claude",
+    "anthropic"
+  ],
+  "author": "Product Case Studies",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aaronbatchelder/product-management-case-studies"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
