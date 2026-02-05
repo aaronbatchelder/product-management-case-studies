@@ -50,10 +50,14 @@ export default function AboutPage() {
           <section>
             <h2 className="text-lg font-semibold mb-3">Why We Built This</h2>
             <p className="text-muted">
-              Product managers constantly need to test, benchmark, and ground decisions
-              in evidence. Case studies are a quick and useful reference - but the best
-              ones are scattered across the web. We&apos;re bringing them together in one
-              searchable, categorized place.
+              Product is constantly changing. 10 years ago I created a &quot;Product Management
+              Case Studies&quot; repo that has since been collecting dust. Recently, I was
+              inspired to repurpose and bring it back to life with the power of AI.
+              I&apos;m doing my best to work with AI to monitor the best sources, both free
+              and paid, for us all to learn from. If you&apos;re a Claude user, I recommend
+              using the <a href="/mcp" className="text-accent hover:underline">MCP</a> to
+              interface with the data set. And even better, if you have a case study of
+              your own you&apos;d like to submit for consideration, <a href="/submit" className="text-accent hover:underline">I welcome it</a>!
             </p>
           </section>
 
