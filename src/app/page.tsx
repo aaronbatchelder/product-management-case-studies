@@ -21,7 +21,7 @@ export default function HomePage() {
           </h1>
           <p className="text-muted max-w-lg mx-auto mb-8">
             A searchable database of {totalCount}+ product management case studies covering growth,
-            launches, pricing, pivots, and more.
+            launches, pricing, pivots, and more. Updated daily.
           </p>
           <SearchBarHome />
         </div>
