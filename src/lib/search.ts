@@ -32,6 +32,7 @@ export function filterCaseStudies(
     category?: string;
     format?: string;
     company?: string;
+    access?: string;
   }
 ): CaseStudy[] {
   let filtered = caseStudies;
@@ -50,6 +51,10 @@ export function filterCaseStudies(
     );
   }
 
+  if (filters.access) {
+    filtered = filtered.filter((study) => study.access === filters.access);
+  }
+
   return filtered;
 }
 
@@ -60,6 +65,7 @@ export function searchAndFilter(
     category?: string;
     format?: string;
     company?: string;
+    access?: string;
   }
 ): CaseStudy[] {
   // First filter, then search

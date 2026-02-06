@@ -226,6 +226,7 @@ async function main() {
           format: "article" as Format,
           company: "Various",
           createdAt: new Date().toISOString(),
+          access: "free", // RSS sources are typically free
           matchScore: score,
           matchedKeywords,
           sourceFeed: source.name,

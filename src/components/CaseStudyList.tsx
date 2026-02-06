@@ -2,7 +2,7 @@
 
 import { useSearchParams, useRouter } from "next/navigation";
 import { useMemo, useState, useCallback } from "react";
-import { CaseStudy, CATEGORIES, FORMATS } from "@/lib/types";
+import { CaseStudy, CATEGORIES, FORMATS, ACCESS_TYPES } from "@/lib/types";
 import { searchAndFilter } from "@/lib/search";
 import { CaseStudyCard } from "./CaseStudyCard";
 import { SearchBar } from "./SearchBar";
@@ -18,9 +18,10 @@ export function CaseStudyList({ caseStudies }: CaseStudyListProps) {
   const query = searchParams.get("q") || "";
   const categoryFilter = searchParams.get("category") || "";
   const formatFilter = searchParams.get("format") || "";
+  const accessFilter = searchParams.get("access") || "";
 
   const [showFilters, setShowFilters] = useState(
-    Boolean(categoryFilter || formatFilter)
+    Boolean(categoryFilter || formatFilter || accessFilter)
   );
 
   const updateFilter = useCallback(
@@ -44,10 +45,11 @@ export function CaseStudyList({ caseStudies }: CaseStudyListProps) {
     return searchAndFilter(caseStudies, query, {
       category: categoryFilter,
       format: formatFilter,
+      access: accessFilter,
     });
-  }, [caseStudies, query, categoryFilter, formatFilter]);
+  }, [caseStudies, query, categoryFilter, formatFilter, accessFilter]);
 
-  const hasActiveFilters = Boolean(query || categoryFilter || formatFilter);
+  const hasActiveFilters = Boolean(query || categoryFilter || formatFilter || accessFilter);
 
   return (
     <div>
@@ -115,6 +117,22 @@ export function CaseStudyList({ caseStudies }: CaseStudyListProps) {
                 {FORMATS.map((format) => (
                   <option key={format.value} value={format.value}>
                     {format.label}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            <div className="flex-1 min-w-[150px]">
+              <label className="block text-xs text-muted mb-1">Access</label>
+              <select
+                value={accessFilter}
+                onChange={(e) => updateFilter("access", e.target.value)}
+                className="input text-sm"
+              >
+                <option value="">All</option>
+                {ACCESS_TYPES.map((access) => (
+                  <option key={access.value} value={access.value}>
+                    {access.label}
                   </option>
                 ))}
               </select>

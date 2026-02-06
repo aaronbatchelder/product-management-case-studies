@@ -17,6 +17,12 @@ export function CaseStudyCard({ caseStudy, showCategory = true }: CaseStudyCardP
           <span className="font-medium">{caseStudy.company}</span>
           <span>·</span>
           <span>{formatLabel}</span>
+          {caseStudy.access === "paid" && (
+            <>
+              <span>·</span>
+              <span className="text-amber-600 font-medium">Paid</span>
+            </>
+          )}
           {showCategory && category && (
             <>
               <span>·</span>

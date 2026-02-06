@@ -1,4 +1,5 @@
 export type Format = "article" | "video" | "pdf" | "podcast" | "slides";
+export type AccessType = "free" | "paid";
 
 export interface CaseStudy {
   id: string;
@@ -13,6 +14,7 @@ export interface CaseStudy {
   format: Format;
   company: string;
   createdAt: string;
+  access: AccessType;
 }
 
 export interface Category {
@@ -126,4 +128,9 @@ export const FORMATS: { value: Format; label: string }[] = [
   { value: "pdf", label: "PDF" },
   { value: "podcast", label: "Podcast" },
   { value: "slides", label: "Slides" },
+];
+
+export const ACCESS_TYPES: { value: AccessType; label: string }[] = [
+  { value: "free", label: "Free" },
+  { value: "paid", label: "Paid" },
 ];

@@ -142,6 +142,7 @@ export async function POST(request: NextRequest) {
         format: (data?.format || submission.format || "article") as Format,
         company: data?.company || submission.company || "Various",
         createdAt: new Date().toISOString(),
+        access: "free", // Default to free for new submissions
       };
 
       // Ensure unique slug
