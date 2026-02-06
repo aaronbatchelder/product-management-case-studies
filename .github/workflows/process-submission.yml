@@ -1,0 +1,149 @@
+name: Process Approved Submissions
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  create-pr:
+    if: github.event.label.name == 'approved' && contains(github.event.issue.labels.*.name, 'case-study-submission')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Extract submission data
+        id: extract
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = context.payload.issue.body;
+
+            // Extract JSON from the issue body
+            const jsonMatch = body.match(/```json\n([\s\S]*?)\n```/);
+            if (!jsonMatch) {
+              core.setFailed('Could not find JSON data in issue body');
+              return;
+            }
+
+            const data = JSON.parse(jsonMatch[1]);
+
+            // Generate slug and id
+            const slug = data.title
+              .toLowerCase()
+              .replace(/[^a-z0-9\s-]/g, '')
+              .replace(/\s+/g, '-')
+              .replace(/-+/g, '-')
+              .substring(0, 80);
+
+            const id = `cs-${Date.now()}-${Math.random().toString(36).substring(2, 9)}`;
+
+            core.setOutput('title', data.title);
+            core.setOutput('url', data.url);
+            core.setOutput('category', data.category);
+            core.setOutput('format', data.format || 'article');
+            core.setOutput('company', data.company || 'Various');
+            core.setOutput('description', data.description || '');
+            core.setOutput('slug', slug);
+            core.setOutput('id', id);
+            core.setOutput('issue_number', context.payload.issue.number);
+
+      - name: Add case study to JSON
+        run: |
+          node << 'EOF'
+          const fs = require('fs');
+          const path = require('path');
+
+          const caseStudiesPath = path.join(process.cwd(), 'src/data/case-studies.json');
+          const caseStudies = JSON.parse(fs.readFileSync(caseStudiesPath, 'utf-8'));
+
+          const newStudy = {
+            id: "${{ steps.extract.outputs.id }}",
+            slug: "${{ steps.extract.outputs.slug }}",
+            title: "${{ steps.extract.outputs.title }}",
+            url: "${{ steps.extract.outputs.url }}",
+            category: "${{ steps.extract.outputs.category }}",
+            tags: [],
+            description: "${{ steps.extract.outputs.description }}",
+            datePublished: new Date().toISOString().split('T')[0],
+            source: "Community Submission",
+            format: "${{ steps.extract.outputs.format }}",
+            company: "${{ steps.extract.outputs.company }}",
+            createdAt: new Date().toISOString(),
+            access: "free"
+          };
+
+          // Check for duplicate URL
+          const normalizeUrl = (url) => {
+            try {
+              const parsed = new URL(url);
+              return `${parsed.hostname}${parsed.pathname.replace(/\/$/, '')}`.toLowerCase();
+            } catch {
+              return url.toLowerCase();
+            }
+          };
+
+          const existingUrls = new Set(caseStudies.map(s => normalizeUrl(s.url)));
+          if (existingUrls.has(normalizeUrl(newStudy.url))) {
+            console.log('Duplicate URL detected, skipping');
+            process.exit(1);
+          }
+
+          // Ensure unique slug
+          let slug = newStudy.slug;
+          let counter = 1;
+          while (caseStudies.some(s => s.slug === newStudy.slug)) {
+            newStudy.slug = `${slug}-${counter}`;
+            counter++;
+          }
+
+          caseStudies.push(newStudy);
+          fs.writeFileSync(caseStudiesPath, JSON.stringify(caseStudies, null, 2));
+
+          console.log('Added:', newStudy.title);
+          EOF
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Add case study: ${{ steps.extract.outputs.title }}"
+          title: "📚 Add case study: ${{ steps.extract.outputs.title }}"
+          body: |
+            Adds a new case study from community submission.
+
+            **Title:** ${{ steps.extract.outputs.title }}
+            **URL:** ${{ steps.extract.outputs.url }}
+            **Category:** ${{ steps.extract.outputs.category }}
+            **Company:** ${{ steps.extract.outputs.company }}
+
+            Closes #${{ steps.extract.outputs.issue_number }}
+
+            ---
+            🤖 Auto-generated from approved submission
+          branch: submission/${{ steps.extract.outputs.issue_number }}
+          delete-branch: true
+          labels: |
+            case-studies
+            automated
+
+      - name: Comment on issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              body: '✅ A pull request has been created to add this case study. Once merged, it will appear on the site.\n\nThank you for your contribution!'
+            });

@@ -1,6 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import * as fs from "fs";
-import * as path from "path";
 
 interface SubmissionRequest {
   url: string;
@@ -13,62 +11,8 @@ interface SubmissionRequest {
   notes?: string;
 }
 
-interface PendingSubmission {
-  id: string;
-  title: string;
-  url: string;
-  description: string;
-  suggestedCategory: string;
-  source: string;
-  sourceType: "rss" | "community";
-  submittedAt: string;
-  status: "pending" | "approved" | "rejected";
-  matchScore: number;
-  matchedKeywords: string[];
-  format?: string;
-  company?: string;
-  submitterEmail?: string;
-  notes?: string;
-}
-
-interface PendingSubmissionsData {
-  lastChecked: string;
-  submissions: PendingSubmission[];
-}
-
-const PENDING_FILE = path.join(
-  process.cwd(),
-  "src/data/pending-submissions.json"
-);
-
-function generateId(): string {
-  return `community-${Date.now()}-${Math.random().toString(36).substring(2, 9)}`;
-}
-
-function normalizeUrl(url: string): string {
-  try {
-    const parsed = new URL(url);
-    return `${parsed.hostname}${parsed.pathname.replace(/\/$/, "")}`.toLowerCase();
-  } catch {
-    return url.toLowerCase();
-  }
-}
-
-function loadPendingSubmissions(): PendingSubmissionsData {
-  try {
-    const data = fs.readFileSync(PENDING_FILE, "utf-8");
-    return JSON.parse(data);
-  } catch {
-    return {
-      lastChecked: new Date().toISOString(),
-      submissions: [],
-    };
-  }
-}
-
-function savePendingSubmissions(data: PendingSubmissionsData): void {
-  fs.writeFileSync(PENDING_FILE, JSON.stringify(data, null, 2));
-}
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+const GITHUB_REPO = "aaronbatchelder/product-management-case-studies";
 
 export async function POST(request: NextRequest) {
   try {
@@ -92,47 +36,94 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Load existing submissions
-    const pending = loadPendingSubmissions();
-
-    // Check for duplicates
-    const normalizedUrl = normalizeUrl(body.url);
-    const isDuplicate = pending.submissions.some(
-      (s) => normalizeUrl(s.url) === normalizedUrl
-    );
-
-    if (isDuplicate) {
+    // If no GitHub token, fall back to logging (for local dev)
+    if (!GITHUB_TOKEN) {
+      console.log("Submission received (no GitHub token configured):", body);
       return NextResponse.json(
-        { error: "This URL has already been submitted" },
-        { status: 409 }
+        { success: true, message: "Submission received (dev mode)" },
+        { status: 201 }
       );
     }
 
-    // Create new submission
-    const submission: PendingSubmission = {
-      id: generateId(),
-      title: body.title,
-      url: body.url,
-      description: body.description?.substring(0, 300) || "",
-      suggestedCategory: body.category,
-      source: "Community Submission",
-      sourceType: "community",
-      submittedAt: new Date().toISOString(),
-      status: "pending",
-      matchScore: 0, // Community submissions don't get auto-scored
-      matchedKeywords: [],
-      format: body.format,
-      company: body.company,
-      submitterEmail: body.submitterEmail,
-      notes: body.notes,
-    };
+    // Create GitHub Issue
+    const issueTitle = `📚 Case Study Submission: ${body.title}`;
+    const issueBody = `## Case Study Submission
 
-    // Add to pending
-    pending.submissions.push(submission);
-    savePendingSubmissions(pending);
+**Title:** ${body.title}
+**URL:** ${body.url}
+**Category:** ${body.category}
+**Format:** ${body.format || "article"}
+**Company:** ${body.company || "Not specified"}
+
+### Description
+${body.description || "No description provided"}
+
+### Submitter Notes
+${body.notes || "None"}
+
+### Submitter Email
+${body.submitterEmail || "Not provided"}
+
+---
+
+### For Reviewers
+
+To approve this submission, add the \`approved\` label. A GitHub Action will automatically create a PR to add this case study.
+
+To reject, close the issue with a comment explaining why.
+
+<details>
+<summary>JSON Data (for automation)</summary>
+
+\`\`\`json
+${JSON.stringify({
+  title: body.title,
+  url: body.url,
+  category: body.category,
+  format: body.format || "article",
+  company: body.company || "Various",
+  description: body.description || "",
+}, null, 2)}
+\`\`\`
+
+</details>
+`;
+
+    const response = await fetch(
+      `https://api.github.com/repos/${GITHUB_REPO}/issues`,
+      {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${GITHUB_TOKEN}`,
+          "Content-Type": "application/json",
+          Accept: "application/vnd.github+json",
+          "X-GitHub-Api-Version": "2022-11-28",
+        },
+        body: JSON.stringify({
+          title: issueTitle,
+          body: issueBody,
+          labels: ["case-study-submission", "pending-review"],
+        }),
+      }
+    );
+
+    if (!response.ok) {
+      const error = await response.text();
+      console.error("GitHub API error:", error);
+      return NextResponse.json(
+        { error: "Failed to create submission" },
+        { status: 500 }
+      );
+    }
+
+    const issue = await response.json();
 
     return NextResponse.json(
-      { success: true, id: submission.id },
+      {
+        success: true,
+        issueNumber: issue.number,
+        issueUrl: issue.html_url,
+      },
       { status: 201 }
     );
   } catch (error) {
@@ -144,22 +135,10 @@ export async function POST(request: NextRequest) {
   }
 }
 
-// GET endpoint to retrieve pending count (useful for admin)
+// GET endpoint for health check
 export async function GET() {
-  try {
-    const pending = loadPendingSubmissions();
-    const pendingCount = pending.submissions.filter(
-      (s) => s.status === "pending"
-    ).length;
-
-    return NextResponse.json({
-      pendingCount,
-      lastChecked: pending.lastChecked,
-    });
-  } catch {
-    return NextResponse.json(
-      { error: "Internal server error" },
-      { status: 500 }
-    );
-  }
+  return NextResponse.json({
+    status: "ok",
+    githubConfigured: Boolean(GITHUB_TOKEN),
+  });
 }
