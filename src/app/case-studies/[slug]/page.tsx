@@ -133,6 +133,22 @@ export default function CaseStudyPage({ params }: PageProps) {
           </dl>
         </div>
 
+        {/* Summary */}
+        {caseStudy.summary && (
+          <div className="mb-8">
+            <h2 className="text-sm font-medium text-muted uppercase tracking-wide mb-3">
+              Summary
+            </h2>
+            <div className="prose prose-sm max-w-none text-ink">
+              {caseStudy.summary.split("\n\n").map((paragraph, i) => (
+                <p key={i} className="mb-3 leading-relaxed">
+                  {paragraph}
+                </p>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* Tags */}
         {caseStudy.tags.length > 0 && (
           <div className="mb-8">

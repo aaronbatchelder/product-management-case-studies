@@ -15,6 +15,7 @@ export interface CaseStudy {
   company: string;
   createdAt: string;
   access: AccessType;
+  summary?: string; // Detailed summary of the case study content
 }
 
 export interface Category {

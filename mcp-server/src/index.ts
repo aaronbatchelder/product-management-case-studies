@@ -23,6 +23,8 @@ interface CaseStudy {
   format: string;
   company: string;
   createdAt: string;
+  access?: string;
+  summary?: string;
 }
 
 interface Category {
@@ -190,7 +192,21 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
       },
       {
         name: "get_case_study",
-        description: "Get a specific case study by its slug",
+        description: "Get a specific case study by its slug, including full summary if available",
+        inputSchema: {
+          type: "object",
+          properties: {
+            slug: {
+              type: "string",
+              description: "The case study slug",
+            },
+          },
+          required: ["slug"],
+        },
+      },
+      {
+        name: "get_case_study_summary",
+        description: "Get just the summary and key insights from a case study (best for understanding content without visiting the URL)",
         inputSchema: {
           type: "object",
           properties: {
@@ -278,6 +294,44 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           {
             type: "text",
             text: JSON.stringify(caseStudy, null, 2),
+          },
+        ],
+      };
+    }
+
+    case "get_case_study_summary": {
+      const caseStudies = await fetchCaseStudies();
+      const slug = args?.slug as string;
+      const caseStudy = caseStudies.find(cs => cs.slug === slug || cs.id === slug);
+
+      if (!caseStudy) {
+        return {
+          content: [
+            {
+              type: "text",
+              text: `Case study not found: ${slug}`,
+            },
+          ],
+          isError: true,
+        };
+      }
+
+      const summaryResponse = {
+        title: caseStudy.title,
+        company: caseStudy.company,
+        category: caseStudy.category,
+        url: caseStudy.url,
+        description: caseStudy.description,
+        summary: caseStudy.summary || "No detailed summary available yet. Visit the URL for full content.",
+        tags: caseStudy.tags,
+        access: caseStudy.access || "free",
+      };
+
+      return {
+        content: [
+          {
+            type: "text",
+            text: JSON.stringify(summaryResponse, null, 2),
           },
         ],
       };

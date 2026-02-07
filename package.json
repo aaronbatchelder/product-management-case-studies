@@ -19,6 +19,7 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@anthropic-ai/sdk": "^0.73.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
