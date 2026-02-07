@@ -23,57 +23,53 @@ export default function MCPPage() {
           </p>
         </header>
 
-        {/* Remote Server (Recommended) */}
+        {/* Claude Desktop */}
         <section className="mb-section">
-          <div className="flex items-center gap-2 mb-4">
-            <h2 className="text-lg font-semibold">Remote Server</h2>
-            <span className="text-xs bg-accent text-cream px-2 py-0.5">Recommended</span>
-          </div>
-          <p className="text-muted mb-4">
-            No installation required. Just add the URL to your MCP config and you&apos;re ready to go.
-          </p>
+          <h2 className="text-lg font-semibold mb-4">Claude Desktop</h2>
 
-          <h3 className="font-medium mb-2 text-sm">Claude Desktop</h3>
-          <p className="text-xs text-muted mb-2">
-            Add to <code className="bg-border px-1">~/Library/Application Support/Claude/claude_desktop_config.json</code> (macOS) or <code className="bg-border px-1">%APPDATA%\Claude\claude_desktop_config.json</code> (Windows):
-          </p>
-          <div className="bg-ink text-cream p-4 overflow-x-auto mb-4">
-            <pre className="text-sm">{`{
+          <div className="space-y-6">
+            {/* Option 1: UI (Pro/Max/Team) */}
+            <div>
+              <div className="flex items-center gap-2 mb-2">
+                <h3 className="font-medium text-sm">Option 1: Via Settings</h3>
+                <span className="text-xs bg-border px-2 py-0.5">Pro/Max/Team</span>
+              </div>
+              <ol className="text-sm text-muted space-y-1 list-decimal list-inside mb-2">
+                <li>Open Claude Desktop → Settings → Connectors</li>
+                <li>Click &ldquo;Add custom connector&rdquo;</li>
+                <li>Paste the URL: <code className="bg-border px-1">https://productcasestudies.com/api/mcp</code></li>
+                <li>Click &ldquo;Add&rdquo;</li>
+              </ol>
+            </div>
+
+            {/* Option 2: Config file */}
+            <div>
+              <h3 className="font-medium text-sm mb-2">Option 2: Config File (All Plans)</h3>
+              <p className="text-xs text-muted mb-2">
+                Edit <code className="bg-border px-1">~/Library/Application Support/Claude/claude_desktop_config.json</code> (macOS) or <code className="bg-border px-1">%APPDATA%\Claude\claude_desktop_config.json</code> (Windows):
+              </p>
+              <div className="bg-ink text-cream p-4 overflow-x-auto">
+                <pre className="text-sm">{`{
   "mcpServers": {
     "productcasestudies": {
-      "url": "https://productcasestudies.com/api/mcp"
+      "command": "npx",
+      "args": ["productcasestudies-mcp"]
     }
   }
 }`}</pre>
-          </div>
-
-          <h3 className="font-medium mb-2 text-sm">Cursor</h3>
-          <p className="text-xs text-muted mb-2">
-            Add to <code className="bg-border px-1">.cursor/mcp.json</code> in your project or global config:
-          </p>
-          <div className="bg-ink text-cream p-4 overflow-x-auto">
-            <pre className="text-sm">{`{
-  "mcpServers": {
-    "productcasestudies": {
-      "url": "https://productcasestudies.com/api/mcp"
-    }
-  }
-}`}</pre>
+              </div>
+              <p className="text-xs text-muted mt-2">
+                Restart Claude Desktop after saving.
+              </p>
+            </div>
           </div>
         </section>
 
-        {/* Local Server (Alternative) */}
+        {/* Cursor */}
         <section className="mb-section border-t border-border pt-8">
-          <h2 className="text-lg font-semibold mb-4">Local Server (Alternative)</h2>
-          <p className="text-muted mb-4">
-            If you prefer to run the MCP server locally, you can use the npm package:
-          </p>
-          <div className="bg-ink text-cream p-4 overflow-x-auto mb-4">
-            <code className="text-sm">npx productcasestudies-mcp</code>
-          </div>
-
-          <p className="text-muted mb-4 text-sm">
-            Then configure your MCP client with:
+          <h2 className="text-lg font-semibold mb-4">Cursor</h2>
+          <p className="text-xs text-muted mb-2">
+            Add to <code className="bg-border px-1">.cursor/mcp.json</code> in your project:
           </p>
           <div className="bg-ink text-cream p-4 overflow-x-auto">
             <pre className="text-sm">{`{
@@ -85,6 +81,20 @@ export default function MCPPage() {
   }
 }`}</pre>
           </div>
+        </section>
+
+        {/* Other MCP Clients */}
+        <section className="mb-section border-t border-border pt-8">
+          <h2 className="text-lg font-semibold mb-4">Other MCP Clients</h2>
+          <p className="text-muted mb-4 text-sm">
+            For clients that support remote HTTP servers, use:
+          </p>
+          <div className="bg-ink text-cream p-4 overflow-x-auto mb-4">
+            <code className="text-sm">https://productcasestudies.com/api/mcp</code>
+          </div>
+          <p className="text-muted text-sm">
+            Or run locally with: <code className="bg-border px-1">npx productcasestudies-mcp</code>
+          </p>
         </section>
 
         {/* Available Tools */}
@@ -207,15 +217,6 @@ export default function MCPPage() {
                 className="text-accent hover:underline"
               >
                 NPM Package
-              </a>
-            </li>
-            <li>
-              <a
-                href="/api/mcp"
-                target="_blank"
-                className="text-accent hover:underline"
-              >
-                API Endpoint Info
               </a>
             </li>
           </ul>
