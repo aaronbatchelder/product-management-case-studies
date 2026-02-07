@@ -1,6 +1,6 @@
 # Product Case Studies
 
-> A searchable database of 160+ product management case studies covering growth, launches, pricing, pivots, AI products, and more.
+> A searchable database of 250+ product management case studies covering growth, launches, pricing, pivots, AI products, and more.
 
 Product Case Studies helps product managers learn from real-world examples. Browse by category or search for specific topics. The database includes case studies from companies like Airbnb, Slack, Spotify, Stripe, Netflix, Dropbox, Duolingo, Figma, Uber, and many more.
 
