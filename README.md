@@ -99,6 +99,15 @@ title,url,category,description,datePublished,source,format,company,tags
 - `/api/categories.json` - Categories with counts
 - `/llms.txt` - AI-friendly site summary
 
+## Roadmap / TODO
+
+- [ ] **Email subscriptions** - Subscribe to new case studies by category
+- [ ] **Newsletter** - Weekly digest of new case studies
+- [ ] **Analytics dashboard** - Track popular searches, categories, and case studies
+- [ ] **User accounts** - Save favorites, reading history
+- [ ] **Comments/discussion** - Community insights on case studies
+- [ ] **More summaries** - AI-generated summaries for remaining case studies
+
 ## License
 
 MIT
