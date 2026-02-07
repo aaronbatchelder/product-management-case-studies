@@ -94,7 +94,7 @@ export function SearchBarHome() {
         type="text"
         value={value}
         onChange={(e) => setValue(e.target.value)}
-        placeholder="Search 1000+ case studies..."
+        placeholder="Search 160+ case studies..."
         className="input text-center pr-10"
         aria-label="Search case studies"
       />
