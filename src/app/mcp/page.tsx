@@ -23,54 +23,57 @@ export default function MCPPage() {
           </p>
         </header>
 
-        {/* Quick Start */}
+        {/* Remote Server (Recommended) */}
         <section className="mb-section">
-          <h2 className="text-lg font-semibold mb-4">Quick Start</h2>
-          <p className="text-muted mb-4">
-            Run this command to start the MCP server:
-          </p>
-          <div className="bg-ink text-cream p-4 overflow-x-auto">
-            <code className="text-sm">npx productcasestudies-mcp</code>
+          <div className="flex items-center gap-2 mb-4">
+            <h2 className="text-lg font-semibold">Remote Server</h2>
+            <span className="text-xs bg-accent text-cream px-2 py-0.5">Recommended</span>
           </div>
-        </section>
-
-        {/* Claude Desktop */}
-        <section className="mb-section">
-          <h2 className="text-lg font-semibold mb-4">Claude Desktop</h2>
           <p className="text-muted mb-4">
-            Add this to your Claude Desktop config file:
+            No installation required. Just add the URL to your MCP config and you&apos;re ready to go.
           </p>
-          <ul className="text-sm text-muted mb-4 space-y-1">
-            <li>
-              <strong>macOS:</strong>{" "}
-              <code className="bg-border px-1">
-                ~/Library/Application Support/Claude/claude_desktop_config.json
-              </code>
-            </li>
-            <li>
-              <strong>Windows:</strong>{" "}
-              <code className="bg-border px-1">
-                %APPDATA%\Claude\claude_desktop_config.json
-              </code>
-            </li>
-          </ul>
+
+          <h3 className="font-medium mb-2 text-sm">Claude Desktop</h3>
+          <p className="text-xs text-muted mb-2">
+            Add to <code className="bg-border px-1">~/Library/Application Support/Claude/claude_desktop_config.json</code> (macOS) or <code className="bg-border px-1">%APPDATA%\Claude\claude_desktop_config.json</code> (Windows):
+          </p>
+          <div className="bg-ink text-cream p-4 overflow-x-auto mb-4">
+            <pre className="text-sm">{`{
+  "mcpServers": {
+    "productcasestudies": {
+      "url": "https://productcasestudies.com/api/mcp"
+    }
+  }
+}`}</pre>
+          </div>
+
+          <h3 className="font-medium mb-2 text-sm">Cursor</h3>
+          <p className="text-xs text-muted mb-2">
+            Add to <code className="bg-border px-1">.cursor/mcp.json</code> in your project or global config:
+          </p>
           <div className="bg-ink text-cream p-4 overflow-x-auto">
             <pre className="text-sm">{`{
   "mcpServers": {
     "productcasestudies": {
-      "command": "npx",
-      "args": ["productcasestudies-mcp"]
+      "url": "https://productcasestudies.com/api/mcp"
     }
   }
 }`}</pre>
           </div>
         </section>
 
-        {/* Cursor */}
-        <section className="mb-section">
-          <h2 className="text-lg font-semibold mb-4">Cursor</h2>
+        {/* Local Server (Alternative) */}
+        <section className="mb-section border-t border-border pt-8">
+          <h2 className="text-lg font-semibold mb-4">Local Server (Alternative)</h2>
           <p className="text-muted mb-4">
-            Add this to your Cursor MCP settings (<code className="bg-border px-1">.cursor/mcp.json</code>):
+            If you prefer to run the MCP server locally, you can use the npm package:
+          </p>
+          <div className="bg-ink text-cream p-4 overflow-x-auto mb-4">
+            <code className="text-sm">npx productcasestudies-mcp</code>
+          </div>
+
+          <p className="text-muted mb-4 text-sm">
+            Then configure your MCP client with:
           </p>
           <div className="bg-ink text-cream p-4 overflow-x-auto">
             <pre className="text-sm">{`{
@@ -85,7 +88,7 @@ export default function MCPPage() {
         </section>
 
         {/* Available Tools */}
-        <section className="mb-section">
+        <section className="mb-section border-t border-border pt-8">
           <h2 className="text-lg font-semibold mb-4">Available Tools</h2>
           <div className="space-y-4">
             <div className="card">
@@ -101,7 +104,17 @@ export default function MCPPage() {
             <div className="card">
               <h3 className="font-medium mb-1">get_case_study</h3>
               <p className="text-sm text-muted">
-                Get a specific case study by its slug or ID.
+                Get a specific case study by its slug or ID, including full details.
+              </p>
+              <div className="mt-2 text-xs text-muted">
+                <code>{"{ slug: string }"}</code>
+              </div>
+            </div>
+
+            <div className="card">
+              <h3 className="font-medium mb-1">get_case_study_summary</h3>
+              <p className="text-sm text-muted">
+                Get the AI-generated summary and key insights from a case study.
               </p>
               <div className="mt-2 text-xs text-muted">
                 <code>{"{ slug: string }"}</code>
@@ -131,7 +144,7 @@ export default function MCPPage() {
         </section>
 
         {/* Example Prompts */}
-        <section className="mb-section">
+        <section className="mb-section border-t border-border pt-8">
           <h2 className="text-lg font-semibold mb-4">Example Prompts</h2>
           <div className="space-y-3 text-sm">
             <div className="card">
@@ -147,6 +160,11 @@ export default function MCPPage() {
             <div className="card">
               <p className="italic text-muted">
                 &ldquo;What can I learn from Airbnb&apos;s early growth strategy?&rdquo;
+              </p>
+            </div>
+            <div className="card">
+              <p className="italic text-muted">
+                &ldquo;Summarize the Superhuman product-market fit case study&rdquo;
               </p>
             </div>
             <div className="card">
@@ -189,6 +207,15 @@ export default function MCPPage() {
                 className="text-accent hover:underline"
               >
                 NPM Package
+              </a>
+            </li>
+            <li>
+              <a
+                href="/api/mcp"
+                target="_blank"
+                className="text-accent hover:underline"
+              >
+                API Endpoint Info
               </a>
             </li>
           </ul>
