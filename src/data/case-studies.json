@@ -4717,5 +4717,46 @@
     "company": "Various",
     "createdAt": "2026-02-06T09:19:49.075Z",
     "access": "free"
+  },
+  {
+    "id": "cs-1770541898893-vsy6ouz",
+    "slug": "weekly-dose-of-optimism-179",
+    "title": "Weekly Dose of Optimism #179",
+    "url": "https://www.notboring.co/p/weekly-dose-of-optimism-179",
+    "category": "platform-strategy",
+    "tags": [
+      "case study",
+      "how .* built",
+      "what .* learned",
+      "company",
+      "growth"
+    ],
+    "description": "Opus 4.6, GPT-5.3-Codex, As Rocks May Think, Mouse Brain Computers, Waymo, Contrary Tech Trends + 4 Extra Doses",
+    "datePublished": "2026-02-06",
+    "source": "Not Boring",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-02-08T09:11:38.893Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1770541896779-dakaygn",
+    "slug": "a-child-psychologists-guide-to-working-with-difficult-adults-dr-becky-kennedy",
+    "title": "A child psychologist’s guide to working with difficult adults | Dr. Becky Kennedy",
+    "url": "https://www.lennysnewsletter.com/p/dr-becky-on-the-surprising-overlap",
+    "category": "product-launch",
+    "tags": [
+      "how .* built",
+      "behind the product",
+      "how",
+      "strategy"
+    ],
+    "description": "Clinical psychologist Dr. Becky Kennedy on why repair is more important than perfection, how to set boundaries that work, the power of \"I believe you\" and \"I believe in you,\" and more",
+    "datePublished": "2026-02-01",
+    "source": "Lenny's Newsletter",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-02-08T09:11:36.779Z",
+    "access": "free"
   }
 ]
