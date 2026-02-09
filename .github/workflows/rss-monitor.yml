@@ -2,8 +2,8 @@ name: RSS Monitor
 
 on:
   schedule:
-    # Run every 72 hours (every 3rd day) at 9am UTC
-    - cron: '0 9 */3 * *'
+    # Run every 72 hours: Monday and Thursday at 9am UTC
+    - cron: '0 9 * * 1,4'
   workflow_dispatch: # Allow manual trigger
 
 jobs:

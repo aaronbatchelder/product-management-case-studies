@@ -199,7 +199,8 @@ async function main() {
 
   const existingUrls = new Set(existingStudies.map((s) => normalizeUrl(s.url)));
   const newCandidates: CaseStudyCandidate[] = [];
-  const SCORE_THRESHOLD = 15;
+  // Higher threshold = stricter filtering for actual case studies
+  const SCORE_THRESHOLD = 40;
 
   for (const source of RSS_SOURCES) {
     const items = await fetchFeed(source);

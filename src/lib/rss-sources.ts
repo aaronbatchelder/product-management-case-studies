@@ -160,21 +160,24 @@ export const RSS_SOURCES: RSSSource[] = [
 ];
 
 // Keywords that strongly indicate case study content
+// These patterns must match actual company/product case studies, not general advice
 export const CASE_STUDY_INDICATORS = [
   "case study",
   "how .* built",
   "how .* grew",
-  "behind the product",
+  "how .* scaled",
+  "how .* achieved",
+  "behind the scenes at",
   "path to product-market fit",
   "founding story",
   "growth story",
-  "lessons from",
-  "what .* learned",
   "inside .*'s",
-  "the story of",
-  "deep dive",
-  "breakdown",
-  "analysis of",
+  "the story of how",
+  "deep dive into",
+  "breakdown of",
+  "\\$\\d+.*revenue", // Revenue numbers indicate real case study
+  "\\d+% growth", // Growth metrics indicate real case study
+  "from \\d+ to \\d+", // Growth trajectory patterns
 ];
 
 // Keywords that indicate NOT a case study (filter out)
@@ -182,9 +185,26 @@ export const EXCLUSION_KEYWORDS = [
   "job posting",
   "hiring",
   "we're looking for",
-  "podcast episode", // Unless it's a specific company deep-dive
+  "podcast episode",
   "roundup",
   "newsletter digest",
   "weekly links",
   "sponsor",
+  "tips for",
+  "how to become",
+  "career advice",
+  "interview questions",
+  "best practices",
+  "guide to",
+  "introduction to",
+  "what is a",
+  "framework for",
+  "template",
+  "checklist",
+  "book review",
+  "book summary",
+  "announcement",
+  "webinar",
+  "event",
+  "conference",
 ];
