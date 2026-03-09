@@ -4717,5 +4717,45 @@
     "company": "Various",
     "createdAt": "2026-02-06T09:19:49.075Z",
     "access": "free"
+  },
+  {
+    "id": "cs-1773047789096-ep9f9ux",
+    "slug": "weekly-dose-of-optimism-179",
+    "title": "Weekly Dose of Optimism #179",
+    "url": "https://www.notboring.co/p/weekly-dose-of-optimism-179",
+    "category": "platform-strategy",
+    "tags": [
+      "case study",
+      "how .* built",
+      "\\$\\d+.*revenue",
+      "from \\d+ to \\d+",
+      "company"
+    ],
+    "description": "Opus 4.6, GPT-5.3-Codex, As Rocks May Think, Mouse Brain Computers, Waymo, Contrary Tech Trends + 4 Extra Doses",
+    "datePublished": "2026-02-06",
+    "source": "Not Boring",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-03-09T09:16:29.097Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1773047789298-z67brw1",
+    "slug": "infinite-games",
+    "title": "Infinite Games",
+    "url": "https://www.generalist.com/p/infinite-games",
+    "category": "platform-strategy",
+    "tags": [
+      "how .* scaled",
+      "company",
+      "strategy"
+    ],
+    "description": "Joining the Hummingbird partnership.",
+    "datePublished": "2026-02-26",
+    "source": "The Generalist",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-03-09T09:16:29.298Z",
+    "access": "free"
   }
 ]
