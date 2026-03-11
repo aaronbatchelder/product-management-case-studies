@@ -4717,5 +4717,26 @@
     "company": "Various",
     "createdAt": "2026-02-06T09:19:49.075Z",
     "access": "free"
+  },
+  {
+    "id": "cs-1770455498999-tx8ziwr",
+    "slug": "weekly-dose-of-optimism-179",
+    "title": "Weekly Dose of Optimism #179",
+    "url": "https://www.notboring.co/p/weekly-dose-of-optimism-179",
+    "category": "platform-strategy",
+    "tags": [
+      "case study",
+      "how .* built",
+      "what .* learned",
+      "company",
+      "growth"
+    ],
+    "description": "Opus 4.6, GPT-5.3-Codex, As Rocks May Think, Mouse Brain Computers, Waymo, Contrary Tech Trends + 4 Extra Doses",
+    "datePublished": "2026-02-06",
+    "source": "Not Boring",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-02-07T09:11:38.999Z",
+    "access": "free"
   }
 ]
