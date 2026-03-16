@@ -4717,5 +4717,45 @@
     "company": "Various",
     "createdAt": "2026-02-06T09:19:49.075Z",
     "access": "free"
+  },
+  {
+    "id": "cs-1773652999631-mfy2ve0",
+    "slug": "weekly-dose-of-optimism-179",
+    "title": "Weekly Dose of Optimism #179",
+    "url": "https://www.notboring.co/p/weekly-dose-of-optimism-179",
+    "category": "platform-strategy",
+    "tags": [
+      "case study",
+      "how .* built",
+      "\\$\\d+.*revenue",
+      "from \\d+ to \\d+",
+      "company"
+    ],
+    "description": "Opus 4.6, GPT-5.3-Codex, As Rocks May Think, Mouse Brain Computers, Waymo, Contrary Tech Trends + 4 Extra Doses",
+    "datePublished": "2026-02-06",
+    "source": "Not Boring",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-03-16T09:23:19.631Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1773653000394-bt7cuel",
+    "slug": "4-seconds-how-fast-board-directors-decide-youre-not-strategic",
+    "title": "4 Seconds: How Fast Board Directors Decide You're 'Not Strategic",
+    "url": "https://www.productcoalition.com/p/i-recorded-myself-in-an-executive",
+    "category": "product-launch",
+    "tags": [
+      "how .* built",
+      "product",
+      "growth"
+    ],
+    "description": "True story: Last month, I decided to record myself presenting to a board member. I thought I&#8217;d done well. Strong content. Clear roadmap. Data-backed recommendations.",
+    "datePublished": "2025-11-09",
+    "source": "Product Coalition",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-03-16T09:23:20.394Z",
+    "access": "free"
   }
 ]
