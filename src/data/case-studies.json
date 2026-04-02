@@ -4717,5 +4717,103 @@
     "company": "Various",
     "createdAt": "2026-02-06T09:19:49.075Z",
     "access": "free"
+  },
+  {
+    "id": "cs-1775121718727-mb5n63h",
+    "slug": "weekly-dose-of-optimism-179",
+    "title": "Weekly Dose of Optimism #179",
+    "url": "https://www.notboring.co/p/weekly-dose-of-optimism-179",
+    "category": "platform-strategy",
+    "tags": [
+      "case study",
+      "how .* built",
+      "\\$\\d+.*revenue",
+      "from \\d+ to \\d+",
+      "company"
+    ],
+    "description": "Opus 4.6, GPT-5.3-Codex, As Rocks May Think, Mouse Brain Computers, Waymo, Contrary Tech Trends + 4 Extra Doses",
+    "datePublished": "2026-02-06",
+    "source": "Not Boring",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-04-02T09:21:58.727Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1775121719458-mnqd0nj",
+    "slug": "your-most-profitable-page-is-also-your-most-ignored",
+    "title": "Your most profitable page is also your most ignored",
+    "url": "https://www.productcoalition.com/p/the-pricing-page-nobody-ab-tests-d28",
+    "category": "product-launch",
+    "tags": [
+      "case study",
+      "how .* built",
+      "case study",
+      "product"
+    ],
+    "description": "The pricing page nobody A/B tests",
+    "datePublished": "2026-03-26",
+    "source": "Product Coalition",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-04-02T09:21:59.458Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1775121718877-1wtodu0",
+    "slug": "the-satya-nadella-playbook",
+    "title": "The Satya Nadella Playbook",
+    "url": "https://www.generalist.com/p/satya-nadella",
+    "category": "platform-strategy",
+    "tags": [
+      "how .* built",
+      "\\$\\d+.*revenue",
+      "company"
+    ],
+    "description": "The ruthless realpolitik of Microsoft&#8217;s &#8220;re-founder.&#8221;",
+    "datePublished": "2026-03-26",
+    "source": "The Generalist",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-04-02T09:21:58.877Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1775121719459-pe3ulf1",
+    "slug": "we-cant-employ-people-who-talk-like-you",
+    "title": "\"We Can't Employ People Who Talk Like You\"",
+    "url": "https://www.productcoalition.com/p/we-cant-employ-people-who-talk-like",
+    "category": "product-launch",
+    "tags": [
+      "how .* built",
+      "how .* grew",
+      "product"
+    ],
+    "description": "A solo founder's public story of starting and building ExecReps.ai",
+    "datePublished": "2026-03-22",
+    "source": "Product Coalition",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-04-02T09:21:59.459Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1775121719462-rrfv9vb",
+    "slug": "4-seconds-how-fast-board-directors-decide-youre-not-strategic",
+    "title": "4 Seconds: How Fast Board Directors Decide You're 'Not Strategic",
+    "url": "https://www.productcoalition.com/p/i-recorded-myself-in-an-executive",
+    "category": "product-launch",
+    "tags": [
+      "how .* built",
+      "product",
+      "growth"
+    ],
+    "description": "True story: Last month, I decided to record myself presenting to a board member. I thought I&#8217;d done well. Strong content. Clear roadmap. Data-backed recommendations.",
+    "datePublished": "2025-11-09",
+    "source": "Product Coalition",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-04-02T09:21:59.462Z",
+    "access": "free"
   }
 ]
