@@ -4717,5 +4717,143 @@
     "company": "Various",
     "createdAt": "2026-02-06T09:19:49.075Z",
     "access": "free"
+  },
+  {
+    "id": "cs-1775467688163-40gpy5z",
+    "slug": "weekly-dose-of-optimism-179",
+    "title": "Weekly Dose of Optimism #179",
+    "url": "https://www.notboring.co/p/weekly-dose-of-optimism-179",
+    "category": "platform-strategy",
+    "tags": [
+      "case study",
+      "how .* built",
+      "\\$\\d+.*revenue",
+      "from \\d+ to \\d+",
+      "company"
+    ],
+    "description": "Opus 4.6, GPT-5.3-Codex, As Rocks May Think, Mouse Brain Computers, Waymo, Contrary Tech Trends + 4 Extra Doses",
+    "datePublished": "2026-02-06",
+    "source": "Not Boring",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-04-06T09:28:08.163Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1775467689126-i6d2b46",
+    "slug": "youre-not-a-bad-communicator-youre-a-diplomat-in-a-room-full-of-commanders",
+    "title": "You're Not a Bad Communicator. You're a Diplomat in a Room Full of Commanders.",
+    "url": "https://www.productcoalition.com/p/youre-not-a-bad-communicator-youre",
+    "category": "product-launch",
+    "tags": [
+      "how .* built",
+      "how .* scaled",
+      "product",
+      "retention"
+    ],
+    "description": "It was 2 am in Lisbon, and I was staring at a spreadsheet of beta user feedback.",
+    "datePublished": "2026-04-05",
+    "source": "Product Coalition",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-04-06T09:28:09.127Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1775467689128-qcayp26",
+    "slug": "your-most-profitable-page-is-also-your-most-ignored",
+    "title": "Your most profitable page is also your most ignored",
+    "url": "https://www.productcoalition.com/p/the-pricing-page-nobody-ab-tests-d28",
+    "category": "product-launch",
+    "tags": [
+      "case study",
+      "how .* built",
+      "case study",
+      "product"
+    ],
+    "description": "The pricing page nobody A/B tests",
+    "datePublished": "2026-03-26",
+    "source": "Product Coalition",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-04-06T09:28:09.128Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1775467688134-fv51cru",
+    "slug": "weekly-dose-of-optimism-187",
+    "title": "Weekly Dose of Optimism #187",
+    "url": "https://www.notboring.co/p/weekly-dose-of-optimism-187",
+    "category": "platform-strategy",
+    "tags": [
+      "how .* built",
+      "how .* achieved",
+      "company"
+    ],
+    "description": "Artemis, TBPN, Gemma 4, Solar, Somos + Science Breakthroughs + Extra Doses",
+    "datePublished": "2026-04-03",
+    "source": "Not Boring",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-04-06T09:28:08.135Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1775467688286-ldfpax3",
+    "slug": "the-satya-nadella-playbook",
+    "title": "The Satya Nadella Playbook",
+    "url": "https://www.generalist.com/p/satya-nadella",
+    "category": "platform-strategy",
+    "tags": [
+      "how .* built",
+      "\\$\\d+.*revenue",
+      "company"
+    ],
+    "description": "The ruthless realpolitik of Microsoft&#8217;s &#8220;re-founder.&#8221;",
+    "datePublished": "2026-03-26",
+    "source": "The Generalist",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-04-06T09:28:08.286Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1775467689127-kr62276",
+    "slug": "the-number-hiding-inside-your-churn-rate",
+    "title": "The number hiding inside your churn rate",
+    "url": "https://www.productcoalition.com/p/not-all-churn-is-your-fault",
+    "category": "product-launch",
+    "tags": [
+      "case study",
+      "case study",
+      "product",
+      "retention"
+    ],
+    "description": "Why the difference between customer churn and revenue churn changes everything you thought you knew about retention",
+    "datePublished": "2026-04-02",
+    "source": "Product Coalition",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-04-06T09:28:09.127Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1775467689129-q7ki5ng",
+    "slug": "we-cant-employ-people-who-talk-like-you",
+    "title": "\"We Can't Employ People Who Talk Like You\"",
+    "url": "https://www.productcoalition.com/p/we-cant-employ-people-who-talk-like",
+    "category": "product-launch",
+    "tags": [
+      "how .* built",
+      "how .* grew",
+      "product"
+    ],
+    "description": "A solo founder's public story of starting and building ExecReps.ai",
+    "datePublished": "2026-03-22",
+    "source": "Product Coalition",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-04-06T09:28:09.129Z",
+    "access": "free"
   }
 ]
