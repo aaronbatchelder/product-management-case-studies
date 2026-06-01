@@ -4717,5 +4717,178 @@
     "company": "Various",
     "createdAt": "2026-02-06T09:19:49.075Z",
     "access": "free"
+  },
+  {
+    "id": "cs-1780310667958-haltx3z",
+    "slug": "youre-not-a-bad-communicator-youre-a-diplomat-in-a-room-full-of-commanders",
+    "title": "You're Not a Bad Communicator. You're a Diplomat in a Room Full of Commanders.",
+    "url": "https://www.productcoalition.com/p/youre-not-a-bad-communicator-youre",
+    "category": "product-launch",
+    "tags": [
+      "how .* built",
+      "how .* scaled",
+      "product",
+      "retention"
+    ],
+    "description": "It was 2 am in Lisbon, and I was staring at a spreadsheet of beta user feedback.",
+    "datePublished": "2026-04-05",
+    "source": "Product Coalition",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-06-01T10:44:27.958Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1780310667269-hfmyryj",
+    "slug": "weekly-dose-of-optimism-187",
+    "title": "Weekly Dose of Optimism #187",
+    "url": "https://www.notboring.co/p/weekly-dose-of-optimism-187",
+    "category": "platform-strategy",
+    "tags": [
+      "how .* built",
+      "how .* achieved",
+      "company"
+    ],
+    "description": "Artemis, TBPN, Gemma 4, Solar, Somos + Science Breakthroughs + Extra Doses",
+    "datePublished": "2026-04-03",
+    "source": "Not Boring",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-06-01T10:44:27.269Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1780310667425-7soey2x",
+    "slug": "the-satya-nadella-playbook",
+    "title": "The Satya Nadella Playbook",
+    "url": "https://www.generalist.com/p/satya-nadella",
+    "category": "platform-strategy",
+    "tags": [
+      "how .* built",
+      "\\$\\d+.*revenue",
+      "company"
+    ],
+    "description": "The ruthless realpolitik of Microsoft&#8217;s &#8220;re-founder.&#8221;",
+    "datePublished": "2026-03-26",
+    "source": "The Generalist",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-06-01T10:44:27.425Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1780310667959-9irbmd4",
+    "slug": "the-number-hiding-inside-your-churn-rate",
+    "title": "The number hiding inside your churn rate",
+    "url": "https://www.productcoalition.com/p/not-all-churn-is-your-fault",
+    "category": "product-launch",
+    "tags": [
+      "case study",
+      "case study",
+      "product",
+      "retention"
+    ],
+    "description": "Why the difference between customer churn and revenue churn changes everything you thought you knew about retention",
+    "datePublished": "2026-04-02",
+    "source": "Product Coalition",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-06-01T10:44:27.959Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1780310667250-vh3xxag",
+    "slug": "weekly-dose-of-optimism-192",
+    "title": "Weekly Dose of Optimism #192",
+    "url": "https://www.notboring.co/p/weekly-dose-of-optimism-192",
+    "category": "platform-strategy",
+    "tags": [
+      "how .* built",
+      "company",
+      "business"
+    ],
+    "description": "UFO Disclosure, GENE-26.5, Neuralink Brain Surgeon Robot, Magnesium, Aalo DSA, GDM x EVE + Extra Doses",
+    "datePublished": "2026-05-08",
+    "source": "Not Boring",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-06-01T10:44:27.250Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1780310667254-3d4f0ot",
+    "slug": "weekly-dose-of-optimism-190",
+    "title": "Weekly Dose of Optimism #190",
+    "url": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
+    "category": "platform-strategy",
+    "tags": [
+      "how .* built",
+      "strategy",
+      "company"
+    ],
+    "description": "Pancreatic cancer, SpaceX x Cursor, Fervo S-1, Autonomous Truck, Autonomous Bio Lan + Science Breakthroughs and Extra Doses",
+    "datePublished": "2026-04-24",
+    "source": "Not Boring",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-06-01T10:44:27.254Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1780310667952-7pjrzwm",
+    "slug": "i-killed-our-blog-and-built-a-lab",
+    "title": "I Killed Our Blog and Built a Lab",
+    "url": "https://www.productcoalition.com/p/i-killed-our-blog-and-built-a-lab",
+    "category": "product-launch",
+    "tags": [
+      "how .* built",
+      "product",
+      "retention"
+    ],
+    "description": "A solo founder's story of building ExecReps.ai",
+    "datePublished": "2026-05-10",
+    "source": "Product Coalition",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-06-01T10:44:27.952Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1780310667954-g9duynz",
+    "slug": "prioritization-frameworks-are-just-opinion-laundering",
+    "title": "Prioritization frameworks are just opinion laundering",
+    "url": "https://www.productcoalition.com/p/100-frameworks-and-youre-still-building",
+    "category": "product-launch",
+    "tags": [
+      "how .* built",
+      "product",
+      "growth"
+    ],
+    "description": "The uncomfortable gap between your RICE scores and who actually decides what ships",
+    "datePublished": "2026-04-23",
+    "source": "Product Coalition",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-06-01T10:44:27.954Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1780310667956-83qrqwp",
+    "slug": "i-built-a-fitness-tracker-for-how-you-speak",
+    "title": "I Built a Fitness Tracker for How You Speak",
+    "url": "https://www.productcoalition.com/p/i-built-a-fitness-tracker-for-how",
+    "category": "product-launch",
+    "tags": [
+      "how .* built",
+      "product",
+      "retention"
+    ],
+    "description": "A founder's story of building ExecReps.ai",
+    "datePublished": "2026-04-12",
+    "source": "Product Coalition",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-06-01T10:44:27.956Z",
+    "access": "free"
   }
 ]
