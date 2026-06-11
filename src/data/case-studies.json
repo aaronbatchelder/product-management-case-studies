@@ -4717,5 +4717,176 @@
     "company": "Various",
     "createdAt": "2026-02-06T09:19:49.075Z",
     "access": "free"
+  },
+  {
+    "id": "cs-1781173903122-27v27xw",
+    "slug": "weekly-dose-of-optimism-187",
+    "title": "Weekly Dose of Optimism #187",
+    "url": "https://www.notboring.co/p/weekly-dose-of-optimism-187",
+    "category": "platform-strategy",
+    "tags": [
+      "how .* built",
+      "how .* achieved",
+      "company"
+    ],
+    "description": "Artemis, TBPN, Gemma 4, Solar, Somos + Science Breakthroughs + Extra Doses",
+    "datePublished": "2026-04-03",
+    "source": "Not Boring",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-06-11T10:31:43.123Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1781173903216-7hbwqph",
+    "slug": "the-satya-nadella-playbook",
+    "title": "The Satya Nadella Playbook",
+    "url": "https://www.generalist.com/p/satya-nadella",
+    "category": "platform-strategy",
+    "tags": [
+      "how .* built",
+      "\\$\\d+.*revenue",
+      "company"
+    ],
+    "description": "The ruthless realpolitik of Microsoft&#8217;s &#8220;re-founder.&#8221;",
+    "datePublished": "2026-03-26",
+    "source": "The Generalist",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-06-11T10:31:43.217Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1781173902931-8cp84aa",
+    "slug": "the-google-capital-company",
+    "title": "The Google Capital Company",
+    "url": "https://stratechery.com/2026/the-google-capital-company/",
+    "category": "platform-strategy",
+    "tags": [
+      "\\$\\d+.*revenue",
+      "strategy",
+      "business model"
+    ],
+    "description": "Google has issued equity to Berkshire Hathaway in a deal that signals far more demand and a future where capital is the ultimate commodity.",
+    "datePublished": "2026-06-02",
+    "source": "Stratechery",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-06-11T10:31:42.931Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1781173903105-3ur1j0f",
+    "slug": "weekly-dose-of-optimism-192",
+    "title": "Weekly Dose of Optimism #192",
+    "url": "https://www.notboring.co/p/weekly-dose-of-optimism-192",
+    "category": "platform-strategy",
+    "tags": [
+      "how .* built",
+      "company",
+      "business"
+    ],
+    "description": "UFO Disclosure, GENE-26.5, Neuralink Brain Surgeon Robot, Magnesium, Aalo DSA, GDM x EVE + Extra Doses",
+    "datePublished": "2026-05-08",
+    "source": "Not Boring",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-06-11T10:31:43.105Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1781173903109-ht1gatw",
+    "slug": "weekly-dose-of-optimism-190",
+    "title": "Weekly Dose of Optimism #190",
+    "url": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
+    "category": "platform-strategy",
+    "tags": [
+      "how .* built",
+      "strategy",
+      "company"
+    ],
+    "description": "Pancreatic cancer, SpaceX x Cursor, Fervo S-1, Autonomous Truck, Autonomous Bio Lan + Science Breakthroughs and Extra Doses",
+    "datePublished": "2026-04-24",
+    "source": "Not Boring",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-06-11T10:31:43.109Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1781173904036-rwecyek",
+    "slug": "the-success-that-killed-success-product-cannibalization",
+    "title": "The Success That Killed Success: Product Cannibalization",
+    "url": "https://www.productcoalition.com/p/the-success-that-killed-success-product",
+    "category": "product-launch",
+    "tags": [
+      "how .* built",
+      "product",
+      "growth"
+    ],
+    "description": "Why the smartest product teams kill their own cash cows before someone else does",
+    "datePublished": "2026-06-08",
+    "source": "Product Coalition",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-06-11T10:31:44.036Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1781173904041-xorwyy7",
+    "slug": "i-killed-our-blog-and-built-a-lab",
+    "title": "I Killed Our Blog and Built a Lab",
+    "url": "https://www.productcoalition.com/p/i-killed-our-blog-and-built-a-lab",
+    "category": "product-launch",
+    "tags": [
+      "how .* built",
+      "product",
+      "retention"
+    ],
+    "description": "A solo founder's story of building ExecReps.ai",
+    "datePublished": "2026-05-10",
+    "source": "Product Coalition",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-06-11T10:31:44.041Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1781173904042-hviox22",
+    "slug": "prioritization-frameworks-are-just-opinion-laundering",
+    "title": "Prioritization frameworks are just opinion laundering",
+    "url": "https://www.productcoalition.com/p/100-frameworks-and-youre-still-building",
+    "category": "product-launch",
+    "tags": [
+      "how .* built",
+      "product",
+      "growth"
+    ],
+    "description": "The uncomfortable gap between your RICE scores and who actually decides what ships",
+    "datePublished": "2026-04-23",
+    "source": "Product Coalition",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-06-11T10:31:44.042Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1781173904044-qa7oc8j",
+    "slug": "i-built-a-fitness-tracker-for-how-you-speak",
+    "title": "I Built a Fitness Tracker for How You Speak",
+    "url": "https://www.productcoalition.com/p/i-built-a-fitness-tracker-for-how",
+    "category": "product-launch",
+    "tags": [
+      "how .* built",
+      "product",
+      "retention"
+    ],
+    "description": "A founder's story of building ExecReps.ai",
+    "datePublished": "2026-04-12",
+    "source": "Product Coalition",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-06-11T10:31:44.044Z",
+    "access": "free"
   }
 ]
