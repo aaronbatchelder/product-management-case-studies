@@ -4717,5 +4717,25 @@
     "company": "Various",
     "createdAt": "2026-02-06T09:19:49.075Z",
     "access": "free"
+  },
+  {
+    "id": "scout-2026-09-24-moises",
+    "slug": "moises-from-music-practice-to-ableton-and-fender",
+    "title": "How Did a Music Practice App Get Into Ableton and Fender?",
+    "url": "https://product.ferryman.app/en/articles/2026-09-24-moises/",
+    "category": "platform-strategy",
+    "tags": [
+      "AI",
+      "music software",
+      "platform integrations",
+      "freemium"
+    ],
+    "description": "Examines how Moises turned AI stem separation into a free-to-try music practice product, then expanded through paid tiers and integrations with Ableton and Fender; distinguishes documented integrations from undisclosed commercial terms.",
+    "datePublished": "2026-09-24",
+    "source": "AI Product Scout",
+    "format": "article",
+    "company": "Moises",
+    "createdAt": "2026-10-12",
+    "access": "free"
   }
 ]
