@@ -4717,5 +4717,224 @@
     "company": "Various",
     "createdAt": "2026-02-06T09:19:49.075Z",
     "access": "free"
+  },
+  {
+    "id": "cs-1795466800066-yg405lv",
+    "slug": "your-growth-chart-is-lying-to-you",
+    "title": "Your Growth Chart Is Lying to You",
+    "url": "https://www.productcoalition.com/p/the-only-number-your-product-cannot",
+    "category": "product-launch",
+    "tags": [
+      "how .* built",
+      "how .* grew",
+      "inside .*'s",
+      "\\$\\d+.*revenue",
+      "product"
+    ],
+    "description": "Acquisition metrics flatter you. CLTV tells you whether you built a business.",
+    "datePublished": "2026-09-08",
+    "source": "Product Coalition",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-11-23T20:46:40.066Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1795466800892-s7lyref",
+    "slug": "vivian-midha-shen-and-raphael-schaad-join-yc-as-general-partners",
+    "title": "Vivian Midha Shen and Raphael Schaad Join YC as General Partners",
+    "url": "https://www.ycombinator.com/blog/welcome-vivian-and-raphael/",
+    "category": "product-launch",
+    "tags": [
+      "how .* built",
+      "how .* grew",
+      "\\$\\d+.*revenue",
+      "startup",
+      "founder"
+    ],
+    "description": "We’re thrilled to announce that Vivian Midha Shen and Raphael Schaad are joining Y Combinator as our newest General Partners.",
+    "datePublished": "2026-10-01",
+    "source": "Y Combinator Blog",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-11-23T20:46:40.892Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1795466800065-w4k1ww3",
+    "slug": "the-price-of-a-slow-yes",
+    "title": "The Price of a Slow Yes",
+    "url": "https://www.productcoalition.com/p/the-price-of-a-slow-yes",
+    "category": "product-launch",
+    "tags": [
+      "how .* built",
+      "inside .*'s",
+      "\\$\\d+.*revenue",
+      "product"
+    ],
+    "description": "Every approval chain has a weekly rate, and I have rarely seen a team work out theirs",
+    "datePublished": "2026-09-17",
+    "source": "Product Coalition",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-11-23T20:46:40.065Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1795466799021-vw3gf4t",
+    "slug": "of-miracles-and-moats",
+    "title": "Of Miracles and Moats",
+    "url": "https://www.notboring.co/p/of-miracles-and-moats",
+    "category": "platform-strategy",
+    "tags": [
+      "how .* built",
+      "how .* grew",
+      "\\$\\d+.*revenue",
+      "from \\d+ to \\d+",
+      "company"
+    ],
+    "description": "Cycles, Bubbles, and the Golden Age of Consumer Surplus",
+    "datePublished": "2026-11-11",
+    "source": "Not Boring",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-11-23T20:46:39.021Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1795466799022-cotsrac",
+    "slug": "weekly-dose-of-optimism-216",
+    "title": "Weekly Dose of Optimism #216",
+    "url": "https://www.notboring.co/p/weekly-dose-of-optimism-216",
+    "category": "platform-strategy",
+    "tags": [
+      "how .* built",
+      "inside .*'s",
+      "company",
+      "business"
+    ],
+    "description": "Cancer Drugs, The Nuclear Company, Warhound, Consciousness, Marathon Alchemy + Extra Doses",
+    "datePublished": "2026-10-23",
+    "source": "Not Boring",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-11-23T20:46:39.022Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1795466796137-a094typ",
+    "slug": "35-premium-tools-free-for-a-yearnow-with-openrouter-langchain-sentry-textexpande",
+    "title": "35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥",
+    "url": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
+    "category": "product-launch",
+    "tags": [
+      "how .* built",
+      "how",
+      "growth",
+      "strategy"
+    ],
+    "description": "Over $40,000 in value, exclusively for Lenny&#8217;s Newsletter subscribers",
+    "datePublished": "2026-11-17",
+    "source": "Lenny's Newsletter",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-11-23T20:46:36.137Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1795466799031-q4mxygk",
+    "slug": "weekly-dose-of-optimism-213",
+    "title": "Weekly Dose of Optimism #213",
+    "url": "https://www.notboring.co/p/weekly-dose-of-optimism-213",
+    "category": "platform-strategy",
+    "tags": [
+      "how .* built",
+      "\\$\\d+.*revenue",
+      "company"
+    ],
+    "description": "Starship Orbital, America.gov, Matic Master Plan, Freckle, Heart Age + Extra Doses",
+    "datePublished": "2026-10-02",
+    "source": "Not Boring",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-11-23T20:46:39.032Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1795466799312-bdd9c63",
+    "slug": "future-50-is-back",
+    "title": "Future 50 is back",
+    "url": "https://www.generalist.com/p/future-50-2026",
+    "category": "platform-strategy",
+    "tags": [
+      "how .* built",
+      "\\$\\d+.*revenue",
+      "company"
+    ],
+    "description": "The fifty highest-potential startups in the world, nominated by leading investors, selected by The Generalist.",
+    "datePublished": "2026-11-19",
+    "source": "The Generalist",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-11-23T20:46:39.312Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1795466800065-6ob3f91",
+    "slug": "the-north-star-metric-was-never-the-business",
+    "title": "The North Star Metric Was Never the Business",
+    "url": "https://www.productcoalition.com/p/the-north-star-metric-was-never-the",
+    "category": "product-launch",
+    "tags": [
+      "inside .*'s",
+      "product",
+      "growth",
+      "retention"
+    ],
+    "description": "From 2015 to today, the archive shows one number moving from KPI to rule to warning",
+    "datePublished": "2026-09-15",
+    "source": "Product Coalition",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-11-23T20:46:40.065Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1795466799037-5zk51oj",
+    "slug": "weekly-dose-of-optimism-211",
+    "title": "Weekly Dose of Optimism #211",
+    "url": "https://www.notboring.co/p/weekly-dose-of-optimism-211",
+    "category": "platform-strategy",
+    "tags": [
+      "how .* built",
+      "company",
+      "business"
+    ],
+    "description": "Tarlatamab, Fayuvi, NGI, Jev, Thatch $1B + Extra Doses",
+    "datePublished": "2026-09-18",
+    "source": "Not Boring",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-11-23T20:46:39.037Z",
+    "access": "free"
+  },
+  {
+    "id": "cs-1795466799350-08eu6y9",
+    "slug": "introducing-generalist-intelligence",
+    "title": "Introducing Generalist Intelligence",
+    "url": "https://www.generalist.com/p/introducing-generalist-intelligence",
+    "category": "platform-strategy",
+    "tags": [
+      "\\$\\d+.*revenue",
+      "company",
+      "analysis"
+    ],
+    "description": "Generalist Intelligence is a weekly intelligence briefing designed for tech&#8217;s most discerning professionals. It will arrive Friday mornings. Our hope is that it opens you up to perspectives you hadn&#8217;t considered and offers a look at fresh pockets of the future you might have missed.",
+    "datePublished": "2026-06-12",
+    "source": "The Generalist",
+    "format": "article",
+    "company": "Various",
+    "createdAt": "2026-11-23T20:46:39.350Z",
+    "access": "free"
   }
 ]
